@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baltic Evidence Showcase — EVE Verified</title>
+<meta name="description" content="Verifiable evidence chains for large-scale ecological modelling. An independent research showcase using public Protect Baltic WP3 species distribution model data.">
+<meta property="og:title" content="Baltic Evidence Showcase">
+<meta property="og:description" content="Verifiable evidence chains for large-scale ecological modelling.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://baltic.eveverified.com/">
+<link rel="canonical" href="https://baltic.eveverified.com/">
+<style>
+  :root{
+    /* EVE Verified frame */
+    --navy:#0a1626; --navy-2:#0e1e33; --navy-3:#132845;
+    --em:#10b981; --em-dim:#0d8f66;
+    --paper:#eef1ec; --ink:#12242e; --ink-soft:#4a6068;
+    --sound:#8ea3a6; --deep:#0d3b4a; --shoal:#dfe6e3;
+    --break:#a8352b; --hold:#1f6b52; --wait:#8a6d1f;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--navy);color:#dbe6f2;
+    font:16px/1.65 ui-sans-serif,system-ui,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+  a{color:var(--em)}
+  a:focus-visible{outline:2px solid var(--em);outline-offset:3px}
+  .shell{max-width:64rem;margin:0 auto;padding:0 1.5rem}
+
+  header.top{border-bottom:1px solid var(--navy-3);background:var(--navy)}
+  .top .shell{display:flex;align-items:baseline;gap:.75rem;padding:1.1rem 1.5rem}
+  .mark{display:inline-flex;align-items:center;gap:.55rem;font-weight:600;letter-spacing:-.01em}
+  .mark .e{width:1.55rem;height:1.55rem;border-radius:.42rem;background:var(--em);
+    color:#04150f;display:grid;place-items:center;font-weight:700;font-size:.95rem}
+  .top small{color:#7d93ad;font-size:.78rem;letter-spacing:.07em;text-transform:uppercase}
+
+  .hero{padding:4rem 0 2.6rem;border-bottom:1px solid var(--navy-3)}
+  .eyebrow{display:inline-block;border:1px solid var(--em-dim);color:var(--em);
+    border-radius:999px;padding:.28rem .8rem;font-size:.76rem;letter-spacing:.05em;
+    margin:0 0 1.5rem}
+  h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.08;font-weight:600;
+    letter-spacing:-.025em;margin:0 0 1rem;max-width:18ch;color:#fff}
+  .sub{font-size:1.16rem;color:#9fb4cc;max-width:56ch;margin:0 0 1.4rem}
+  .why{color:#8ba1ba;max-width:60ch;margin:0}
+  .why strong{color:#cfe0f0;font-weight:600}
+
+  section{padding:3.4rem 0;border-bottom:1px solid var(--navy-3)}
+  h2.sec{font-size:1.55rem;font-weight:600;letter-spacing:-.015em;margin:0 0 .7rem;color:#fff}
+  .sec-lede{color:#8ba1ba;max-width:60ch;margin:0 0 2rem}
+
+  /* the instrument: chart paper inside the navy frame */
+  .instrument{background:var(--paper);color:var(--ink);border-radius:.55rem;
+    overflow:hidden;box-shadow:0 1px 0 rgba(255,255,255,.06)}
+  .instrument .pad{padding:1.9rem 1.7rem}
+  .instrument h3{font-size:1.08rem;font-weight:400;margin:0 0 .45rem;color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+  .instrument p{color:var(--ink-soft);max-width:60ch;margin:0 0 1.2rem;
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+  .instrument h4{font-size:.95rem;font-weight:400;margin:1.5rem 0 .45rem;color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+
+  .controls{background:var(--shoal);padding:1.15rem 1.7rem;display:grid;gap:.9rem;
+    border-bottom:1px solid #cfdad6}
+  .row{display:flex;flex-wrap:wrap;gap:.45rem;align-items:baseline}
+  .row > .lbl{width:6.5rem;flex:none;color:var(--sound);
+    font:400 .78rem/1.9 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .opt{background:var(--paper);border:1px solid var(--sound);color:var(--ink);
+    padding:.4rem .75rem;cursor:pointer;border-radius:.25rem;
+    font:400 .82rem/1.3 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .opt:hover{border-color:var(--deep)}
+  .opt[aria-pressed="true"]{background:var(--deep);color:var(--paper);border-color:var(--deep)}
+  .opt:focus-visible{outline:2px solid var(--break);outline-offset:2px}
+  .cellnote{color:var(--ink-soft);font-size:.87rem;margin:.1rem 0 0;max-width:62ch;
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+
+  nav.tabs{display:flex;flex-wrap:wrap;background:var(--shoal);border-bottom:1px solid #cfdad6}
+  .tab{background:none;border:0;border-bottom:2px solid transparent;
+    padding:.72rem 1.15rem;cursor:pointer;color:var(--ink-soft);
+    font:400 .92rem/1 "Iowan Old Style",Palatino,Georgia,serif}
+  .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--deep);background:var(--paper)}
+  .tab:focus-visible{outline:2px solid var(--break);outline-offset:-2px}
+
+  dl{margin:0 0 1.2rem;display:grid;grid-template-columns:13rem 1fr;gap:.28rem 1.1rem;
+    font:400 .82rem/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  dt{color:var(--sound)}
+  dd{margin:0;word-break:break-word;color:var(--deep)}
+  .aside{color:var(--sound)}
+  .binomial{font-style:italic}
+  pre{margin:0 0 1.1rem;padding:.95rem 1.05rem;overflow-x:auto;background:var(--shoal);
+    color:var(--deep);border-radius:.3rem;
+    font:400 .79rem/1.65 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  blockquote{margin:0 0 1rem;padding:.2rem 0 .2rem 1.1rem;border-left:2px solid var(--sound);
+    color:var(--ink);max-width:58ch;font-style:italic;
+    font-family:"Iowan Old Style",Palatino,Georgia,serif}
+  .gap{border-left:3px solid var(--break);padding:.85rem 0 .85rem 1.15rem;margin:0 0 1.2rem}
+  .gap p{margin:0;max-width:58ch;color:var(--ink)}
+  .steps{list-style:none;margin:0 0 1.1rem;padding:0;
+    font:400 .82rem/1.85 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .steps li{padding-left:1.5rem;position:relative;color:var(--deep)}
+  .steps li::before{content:"\2192";position:absolute;left:0;color:var(--sound)}
+  .verdict{padding:1.3rem 1.4rem;background:var(--shoal);border-left:3px solid var(--hold);
+    border-radius:.3rem}
+  .state{display:block;margin:0 0 .8rem;letter-spacing:.02em;color:var(--hold);
+    font:400 1.02rem/1.35 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .verdict p{margin:0 0 .75rem;max-width:58ch;color:var(--ink)}
+  .verdict dl{margin:0}
+  table{border-collapse:collapse;margin:0 0 1.2rem;width:100%;
+    font:400 .82rem/1.7 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  th,td{text-align:left;padding:.28rem 1.1rem .28rem 0;border-bottom:1px solid var(--shoal)}
+  th{color:var(--sound);font-weight:400}
+
+  /* EVE section on navy */
+  .chain{list-style:none;margin:0 0 1.6rem;padding:0;
+    font:400 .86rem/2 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#a8c0d8}
+  .chain li{padding-left:1.7rem;position:relative}
+  .chain li::before{content:"\2193";position:absolute;left:.35rem;color:var(--em-dim)}
+  .chain li:first-child::before{content:"\25CF";font-size:.6rem;top:.05rem}
+  .notlist{margin:0 0 1.6rem;padding:0 0 0 1.1rem;color:#9fb4cc;max-width:60ch}
+  .notlist li{margin:0 0 .4rem}
+  .pull{border-left:3px solid var(--em);padding:.15rem 0 .15rem 1.2rem;
+    color:#dbe6f2;font-size:1.1rem;max-width:52ch;margin:1.8rem 0 0}
+
+  .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.6rem}
+  .card{background:var(--navy-2);border:1px solid var(--navy-3);border-radius:.5rem;padding:1.2rem 1.3rem}
+  .card h3{margin:0 0 .4rem;font-size:.98rem;font-weight:600;color:#fff}
+  .card p{margin:0;color:#8ba1ba;font-size:.92rem}
+
+  .disclaimer{background:var(--navy-2);border:1px solid var(--navy-3);border-left:3px solid var(--em-dim);
+    border-radius:.4rem;padding:1.2rem 1.3rem;color:#a8c0d8;max-width:62ch}
+  footer{padding:2.6rem 0 4rem;color:#6f88a3;font-size:.88rem}
+  footer p{max-width:62ch;margin:0 0 1rem}
+  footer a{color:#8fd9bb}
+
+  @media (max-width:44rem){
+    dl{grid-template-columns:1fr;gap:.05rem 0}
+    dt{margin-top:.5rem}
+    .instrument .pad{padding:1.4rem 1.05rem}
+    .controls{padding:1rem 1.05rem}
+    .row > .lbl{width:100%}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="shell">
+    <span class="mark"><span class="e">e</span> EVE Verified</span>
+    <small>Research showcase</small>
+  </div>
+</header>
+
+<div class="shell">
+
+  <div class="hero">
+    <span class="eyebrow">Independent research · public Protect Baltic data</span>
+    <h1>Baltic Evidence Showcase</h1>
+    <p class="sub">Verifiable evidence chains for large-scale ecological modelling.</p>
+    <p class="why">The Protect Baltic WP3 species distribution models are published,
+      versioned and citable — 630 species, 7 product families, 4 410 raster products
+      across fish, macrophytes and invertebrates. <strong>A DOI identifies the dataset.
+      It does not identify a claim derived from it.</strong> This showcase follows one
+      250 m cell of the Baltic down to a single value and shows which evidence travels
+      with it, and which does not.</p>
+  </div>
+
+  <section>
+    <h2 class="sec">Walk the chain</h2>
+    <p class="sec-lede">One location, held constant. Change the species and the answer
+      changes, not the place. Every figure comes from files retrieved from the
+      published archive; showcase declarations are marked as constructed.</p>
+
+    <div class="instrument">
+      <div class="controls">
+        <div class="row" id="grRow" role="group" aria-label="Taxonomic group"><span class="lbl">group</span></div>
+        <div class="row" id="spRow" role="group" aria-label="Species"><span class="lbl">species</span></div>
+        <div class="row" id="prRow" role="group" aria-label="Product family"><span class="lbl">product</span></div>
+        <p class="cellnote">Row 3387, column 1926 — centre 4691222.4269 / 3965570.1766
+          in EPSG:3035, which is 58.642°N 16.374°E, Bråviken on the Swedish east coast.</p>
+      </div>
+      <nav class="tabs" role="tablist" aria-label="Chain">
+        <button class="tab" role="tab" aria-selected="true"  data-p="evidence">Evidence</button>
+        <button class="tab" role="tab" aria-selected="false" data-p="prediction">Prediction</button>
+        <button class="tab" role="tab" aria-selected="false" data-p="verification">Verification</button>
+        <button class="tab" role="tab" aria-selected="false" data-p="result">Result</button>
+        <button class="tab" role="tab" aria-selected="false" data-p="insights">What the archive shows</button>
+      </nav>
+      <div class="pad" id="panel" role="tabpanel"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="sec">How EVE was used in this research showcase</h2>
+    <p class="sec-lede">EVE was not used to generate the ecological models, and it does
+      not determine whether they are scientifically correct. It was used as the
+      verification framework for separating and binding the parts of the evidence
+      chain.</p>
+
+    <ul class="chain">
+      <li>Published source</li>
+      <li>Retrieved artefact</li>
+      <li>Measured identity</li>
+      <li>Product role</li>
+      <li>Model context</li>
+      <li>Review evidence</li>
+      <li>Declared claim</li>
+      <li>Reproduced verification result</li>
+    </ul>
+
+    <p style="color:#9fb4cc;max-width:60ch;margin:0 0 1.4rem">Keeping those layers apart
+      surfaced three things that are easy to lose in ordinary analysis:</p>
+
+    <div class="cols">
+      <div class="card">
+        <h3>Review context does not travel</h3>
+        <p>A cited cell value carries no trace of the expert review recorded for that
+          species — including notes the modelling team wrote themselves.</p>
+      </div>
+      <div class="card">
+        <h3>Probabilities are not comparable</h3>
+        <p>The binary threshold is derived per species, so a higher probability can
+          carry a worse suitability class.</p>
+      </div>
+      <div class="card">
+        <h3>Content identity is not role</h3>
+        <p>Where two product families hold the same content, a content hash gives both
+          the same identity and cannot establish which role an artefact played.</p>
+      </div>
+    </div>
+
+    <p class="pull">EVE separates these layers so that one cannot silently stand in for
+      another.</p>
+
+    <ul class="notlist" style="margin-top:2rem">
+      <li>EVE did not generate the ecological models.</li>
+      <li>EVE does not determine scientific truth.</li>
+      <li>This showcase uses EVE's evidence-verification principles; it was not produced
+        by a finished EVE runtime.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="sec">Sources and attribution</h2>
+    <p class="sec-lede">All data used here is publicly available under CC-BY-4.0 and was
+      produced by the Protect Baltic project, funded by the European Union's Horizon
+      Europe programme.</p>
+    <dl style="color:#a8c0d8">
+      <dt style="color:#6f88a3">dataset</dt>
+      <dd><a href="https://doi.org/10.5281/zenodo.20309312">Zenodo record 20309312 — Protect Baltic WP3 SDMs</a></dd>
+      <dt style="color:#6f88a3">project</dt>
+      <dd><a href="https://protectbaltic.eu/">protectbaltic.eu</a></dd>
+      <dt style="color:#6f88a3">code</dt>
+      <dd><a href="https://github.com/helcomsecretariat">HELCOM Secretariat on GitHub</a></dd>
+      <dt style="color:#6f88a3">preprint</dt>
+      <dd><a href="https://doi.org/10.21203/rs.3.rs-10132050/v1">doi.org/10.21203/rs.3.rs-10132050/v1</a></dd>
+    </dl>
+    <div class="disclaimer">
+      This is an independent research showcase using publicly available Protect Baltic
+      WP3 data. It is not part of the Protect Baltic project and does not represent SLU,
+      HELCOM or project partners.
+    </div>
+  </section>
+
+  <footer>
+    <p><strong style="color:#9fb4cc">What this does not claim.</strong> A verification
+      result says a declared relation holds against bound evidence. It is not a
+      scientific, environmental or policy conclusion. Nothing here says a model is right
+      or wrong: model metrics and expert review answer different questions and both can
+      be reasonable within their own role.</p>
+    <p><strong style="color:#9fb4cc">How the data was obtained.</strong> Eight rasters
+      and two CSV files were retrieved by HTTP byte range — 26 MB of a 5.58 GB archive —
+      with CRC32 verified against the archive's own central directory after
+      decompression. The sha-256 values are local measurements and are not published by
+      Zenodo. Measured 2026-09-09.</p>
+    <p>EVE Verified · <a href="https://eveverified.com">eveverified.com</a></p>
+  </footer>
+
+</div>
+
+<script>
+const CELL={row:3387,col:1926,centre:"4691222.4269 / 3965570.1766"};
+const STRICT={1:"1 — unlikely suitable",2:"2 — likely unsuitable",
+              3:"3 — likely suitable",4:"4 — very likely suitable"};
+const S={
+ "Perca.fluviatilis":{full:"Perca fluviatilis",common:"European perch",prob:891,strict:4,
+   probSha:"e1c4ef30f7e3eb45829640e32dc2003872c1a5d74308b79bdf6aa1654e0c5f9a",
+   strictSha:"b5d0ace787a6ec7fa873f8614fb0a7f676a9743f8cd6322c525b330e9d5f6fc9",
+   probBytes:6202696,strictBytes:497868,crc:"f8d8d584",tss:"0.918731631",tssSub:"0.907333333",
+   pres:"21 465",abs:"44 417",internal:"3",external:"3",omin:"3",icomment:"",ecomment:"",
+   decl:"e65aa8058981af6f2b52af355d3568c07a9bed5bc775676a7bbeb231e82626a9",predictTo:"Gillnet"},
+ "Clupea.harengus":{full:"Clupea harengus",common:"Atlantic herring",prob:575,strict:1,
+   probSha:"4f50f35c9b9dc82272c01900a2c41d5b4c677942b8650115cd87e8fcc3e8b492",
+   strictSha:"610a0684d005201bbff21447d62388a0f1244f25e79c072d5846d9234a9f32eb",
+   probBytes:6951216,strictBytes:566678,crc:"46933385",tss:"0.790276075",tssSub:"0.7116",
+   pres:"31 926",abs:"33 956",internal:"3",external:"3",omin:"3",icomment:"",ecomment:"",
+   decl:"1802754d79e937e4c72d444579916ad8dbdb716223296a6ca36ddd7e37687acf",predictTo:"Pelagic_trawl"},
+ "Gymnocephalus.cernua":{full:"Gymnocephalus cernua",common:"Ruffe",prob:848,strict:4,
+   probSha:"07818bc0b199a2416aea9e3e10f84d6f1b5f46d087705563a22a1e6bbfee6e57",
+   strictSha:"9c57d709c195f546b6352712c2ece8d77843b17afb30156dd8413305b385a529",
+   probBytes:5803592,strictBytes:468498,crc:"6dad45fd",tss:"0.887627292",tssSub:"0.8686",
+   pres:"14 219",abs:"51 663",internal:"3",external:"3",omin:"3",icomment:"",ecomment:"",
+   decl:"c3f3087a91caea0e0980d187da77812e36200182730b1939d9fe91e966567dbb",predictTo:"Gillnet"},
+ "Merluccius.merluccius":{full:"Merluccius merluccius",common:"European hake",prob:410,strict:2,
+   probSha:"9c2fb1867469f3613f51831165dd4179fedbc8c96ee76d715c66b73f5b0934bc",
+   strictSha:"8ca52dd316a767d1c06a43ab7534af31ea58b5b93fd42690be22f9d433000351",
+   probBytes:6228352,strictBytes:441756,crc:"8eb89e75",tss:"0.953133336",tssSub:"0.947133333",
+   pres:"2 089",abs:"63 793",internal:"1",external:"1",omin:"1",
+   icomment:"Overestimates in the Baltic, although with low confidence. Caused by the GAM.",
+   ecomment:"Reviewer 1: occurrences in the Baltic seem incorrect | Reviewer 2: Does not occur in Finland to our knowledge",
+   decl:"730bea4143a6aff7cc192e002f9fa99030a99ff54ad93f41da56ff5a33bf9b4f",predictTo:"Benthic_trawl"}
+};
+const G={
+ fish:{label:"Fish",species:101,rasters:707,tssMed:"0.885",tssRange:"0.603 – 0.997",low:14,lowPct:"14%",
+   sample:[["Ammodytes.tobianus","1.0"],["Anguilla.anguilla","1.0"],["Argentina.sphyraena","1.0"],
+           ["Centrolabrus.exoletus","1.0"],["Eutrigla.gurnardus","1.0"]]},
+ macrophytes:{label:"Macrophytes",species:189,rasters:1323,tssMed:"0.944",tssRange:"0.632 – 1.000",low:14,lowPct:"7%",
+   sample:[["Acrochaetium.secundatum","1.0"],["Agarophyton.vermiculophyllum","1.0"],
+           ["Chaetopteris.plumosa","1.0"],["Codium.fragile","1.0"],["Colaconema.nemalionis","1.0"]]},
+ invertebrates:{label:"Invertebrates",species:340,rasters:2380,tssMed:"0.873",tssRange:"0.569 – 0.998",low:127,lowPct:"37%",
+   sample:[["Akera.bullata","1.0"],["Alcyonidium.diaphanum","1.0"],["Alcyonidium.polyoum","1.0"],
+           ["Ampelisca.tenuicornis","1.0"],["Ampharete.acutifrons","1.0"]]}
+};
+let key="Merluccius.merluccius",prod="probability",panel="evidence",group="fish";
+const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+function block(d){return `{
+  "nf": "PROPOSITION_NORMAL_FORM_v1",
+  "registry": { "id": "OPERATOR_REGISTRY_v1", "sha256": "(not yet built)" },
+  "root": {
+    "k": "op", "id": "VALUE_EQUALS_v1", "ver": "v1",
+    "in": [
+      { "k": "op", "id": "CELL_AT_v1", "ver": "v1",
+        "in": [
+          { "k": "ref", "h": "${d.probSha}", "kind": "ARTEFACT" },
+          { "k": "val", "t": "i64", "v": "${CELL.row}" },
+          { "k": "val", "t": "i64", "v": "${CELL.col}" }
+        ] },
+      { "k": "val", "t": "i64", "v": "${d.prob}" }
+    ]
+  }
+}`;}
+
+function reviewRows(d){
+  if(!d.icomment&&!d.ecomment)
+    return `<p>No reviewer comment was recorded for this species. Both reviewers scored
+      it ${d.omin} of 3.</p>`;
+  let h="";
+  if(d.icomment) h+=`<h4>Note from the modelling team</h4><blockquote>${esc(d.icomment)}</blockquote>`;
+  if(d.ecomment) h+=`<h4>External reviewers</h4><blockquote>${esc(d.ecomment)}</blockquote>`;
+  return h;
+}
+
+function groupView(g){const d=G[g];return `
+  <h3>${d.label}</h3>
+  <p>Indexed from the published archive's own central directory and from the two
+     published CSV files. Selective source retrieval for this group has not been
+     materialised in this showcase, so no raster value is shown.</p>
+  <dl>
+    <dt>species</dt><dd>${d.species}</dd>
+    <dt>raster products</dt><dd>${d.rasters.toLocaleString("en")} across 7 product families</dd>
+    <dt>ensemble TSS</dt><dd>median ${d.tssMed} · range ${d.tssRange}</dd>
+    <dt>lowest review score</dt><dd>${d.low} of ${d.species} species scored 1 of 3 by at
+      least one reviewer <span class="aside">(${d.lowPct})</span></dd>
+    <dt>local rasters</dt><dd>none retrieved for this group</dd>
+  </dl>
+  <h4>Species scored 1 of 3 — first five alphabetically</h4>
+  <table><tr><th>species</th><th>lowest review score</th></tr>
+  ${d.sample.map(([n,s])=>`<tr><td><span class="binomial">${n.replace("."," ")}</span></td><td>${s}</td></tr>`).join("")}
+  </table>
+  <h4>Why the group matters here</h4>
+  <p>The proportion of species carrying the lowest review score differs sharply between
+    groups — 7% of macrophytes, 14% of fish, 37% of invertebrates. That review evidence
+    exists in the published archive and is identifiable per species, but it is a separate
+    artefact from every raster it concerns, and it does not travel with a cited cell
+    value in any of the three groups.</p>
+  <p>To make this group behave like the fish view, the relevant rasters would be
+    retrieved the same way: read the archive's central directory, take only the byte
+    ranges for the members needed, verify CRC32 against the archive's own metadata, and
+    measure sha-256 locally.</p>`;}
+
+function views(d){
+ const sha=prod==="probability"?d.probSha:d.strictSha;
+ const bytes=prod==="probability"?d.probBytes:d.strictBytes;
+ const shown=prod==="probability"?`${d.prob} of 1000`:STRICT[d.strict];
+ return {
+ evidence:`
+  <h3>Evidence</h3>
+  <p>For this reproduced showcase run, the source artefacts are identified before the
+     cell value is re-read. The model output and the review record remain separate
+     artefacts, and both are part of the context.</p>
+  <h4>Artefact</h4>
+  <dl>
+    <dt>source record</dt><dd>Zenodo 20309312 · 10.5281/zenodo.20309312 · CC-BY-4.0</dd>
+    <dt>archive</dt><dd>PROTECT-BALTIC-WP3-SDMs.zip · 5 584 303 765 B · md5 d713b61a… <span class="aside">(publisher-issued)</span></dd>
+    <dt>member</dt><dd>fish/${prod==="probability"?"probability_tif":"binary_strict_tif"}/${key}.tif</dd>
+    <dt>local file</dt><dd>${bytes.toLocaleString("en")} B</dd>
+    <dt>sha-256</dt><dd>${sha} <span class="aside">(local measurement)</span></dd>
+    <dt>product role</dt><dd>${prod==="probability"?"probability_tif":"binary_strict_tif"}</dd>
+    <dt>grid</dt><dd>EPSG:3035 · 4914 × 5657 · 250 m · uint16 · nodata 65535</dd>
+  </dl>
+  <h4>Location and value</h4>
+  <dl>
+    <dt>cell</dt><dd>row ${CELL.row}, column ${CELL.col} · centre ${CELL.centre}</dd>
+    <dt>species</dt><dd><span class="binomial">${d.full}</span> — ${d.common}</dd>
+    <dt>value read</dt><dd>${shown}</dd>
+  </dl>
+  <h4>Model context <span class="aside">— WP3_species_list.csv</span></h4>
+  <dl>
+    <dt>ensemble TSS</dt><dd>${d.tss}</dd>
+    <dt>submodel TSS</dt><dd>${d.tssSub}</dd>
+    <dt>training data</dt><dd>${d.pres} presences · ${d.abs} absences</dd>
+    <dt>algorithms kept</dt><dd>RFd, XGBOOST, GAM</dd>
+    <dt>predicted to</dt><dd>${d.predictTo}</dd>
+  </dl>
+  <h4>Review context <span class="aside">— WP3_species_review.csv</span></h4>
+  <dl>
+    <dt>internal score</dt><dd>${d.internal} of 3</dd>
+    <dt>external score</dt><dd>${d.external} of 3</dd>
+  </dl>
+  ${reviewRows(d)}`,
+
+ prediction:`
+  <h3>Prediction</h3>
+  <p>A showcase declaration, bound before verification and carrying its own identity.
+     The expected value was constructed from previously observed data and is not a
+     prospective prediction.</p>
+  <dl>
+    <dt>declaration sha-256</dt><dd>${d.decl}</dd>
+    <dt>expected value</dt><dd>${d.prob}</dd>
+    <dt>about</dt><dd>row ${CELL.row}, column ${CELL.col} of the bound probability raster</dd>
+    <dt>declared by</dt><dd>an external party <span class="aside">(constructed for this showcase)</span></dd>
+  </dl>
+  <pre>${esc(block(d))}</pre>
+  <div class="gap"><p>No artefact like this is published anywhere. The dataset is
+    citable; a cell-level statement about it is not. Closing that gap is the
+    proposal.</p></div>`,
+
+ verification:`
+  <h3>Verification</h3>
+  <p>What is checked, in order.</p>
+  <ul class="steps">
+    <li>the declaration is bound by its own hash before evaluation</li>
+    <li>the raster is bound by sha-256 ${d.probSha.slice(0,12)}… and by product role</li>
+    <li>the operator names are showcase representations of a proposed normal form; no
+        operator registry exists yet, so nothing here was checked against one</li>
+    <li>CELL_AT_v1 reads row ${CELL.row}, column ${CELL.col} — the cell the declaration names</li>
+    <li>the read value is compared to the declared value, exact equality, no tolerance</li>
+  </ul>
+  <h4>What is not checked</h4>
+  <p>Whether the model is scientifically correct. Whether the reviewers are right.
+    Whether this species occurs at this location. The reproduced check establishes that
+    the declared relation holds against the bound evidence. A future verification
+    runtime would make that check independently executable under the declared operator
+    semantics, so that someone who does not trust whoever ran it first can run it
+    again.</p>
+  <h4>What the review context adds</h4>
+  <p>${d.ecomment
+    ?`For this species the review record materially changes how the value should be read
+      — and it is a separate artefact that a cited value does not carry with it.`
+    :`For this species both reviewers scored the model ${d.omin} of 3 with no qualifying
+      comment. The review record still travels separately.`}</p>`,
+
+ result:`
+  <h3>Result</h3>
+  <p>One outcome, with the identities that produced it.</p>
+  <div class="verdict">
+    <span class="state">REPRODUCED SHOWCASE RESULT — CORRESPONDS</span>
+    <p>The declared relation holds: the value stored at the named cell of the bound
+       raster equals the value the declaration stated.</p>
+    <p>Correspondence was established by separately re-reading the bound raster bytes on
+       local disk. It was not produced by this web page, which reads no file, and not by
+       a finished verification runtime, which does not exist yet.</p>
+    <dl>
+      <dt>declared expected</dt><dd>${d.prob}</dd>
+      <dt>value read</dt><dd>${d.prob}</dd>
+      <dt>cell</dt><dd>row ${CELL.row}, column ${CELL.col}</dd>
+      <dt>raster sha-256</dt><dd>${d.probSha}</dd>
+      <dt>product role</dt><dd>probability_tif</dd>
+      <dt>declaration sha-256</dt><dd>${d.decl}</dd>
+    </dl>
+  </div>
+  <h4>What this result does not settle</h4>
+  <p>That the value is ${d.prob} is now re-checkable by anyone. Whether
+    ${d.common.toLowerCase()} belongs at this location is a separate question, answered
+    by separate evidence${d.ecomment?" — which for this species says something the number alone does not.":"."}</p>`,
+
+ insights:`
+  <h3>What the archive shows</h3>
+  <p>Two properties measured across the published data, both of which affect whether a
+     cited value can be interpreted later.</p>
+  <h4>A probability is not comparable across species</h4>
+  <p>The same cell, four species. The binary threshold is derived per species from TSS,
+    so a higher probability can carry a worse suitability class.</p>
+  <table>
+    <tr><th>species</th><th>probability</th><th>binary_strict</th></tr>
+    <tr><td><span class="binomial">Perca fluviatilis</span></td><td>891</td><td>4 — very likely suitable</td></tr>
+    <tr><td><span class="binomial">Gymnocephalus cernua</span></td><td>848</td><td>4 — very likely suitable</td></tr>
+    <tr><td><span class="binomial">Clupea harengus</span></td><td>575</td><td>1 — unlikely suitable</td></tr>
+    <tr><td><span class="binomial">Merluccius merluccius</span></td><td>410</td><td>2 — likely unsuitable</td></tr>
+  </table>
+  <p>Herring scores 575 and is classed unlikely; hake scores 410 and is classed likely
+    unsuitable. Without the species' own threshold, the numbers do not mean the same
+    thing.</p>
+  <h4>Content identity is not product role</h4>
+  <p>For <strong>506 of 630 species</strong>, <code>binary_tif</code> and
+    <code>binary_envelope_tif</code> have identical uncompressed size and identical CRC32
+    in the archive's own central directory, which strongly indicates identical content.
+    Full byte identity has been independently established only for the species inspected
+    here; it has not been verified for all 506 pairs.</p>
+  <p>Where content is identical, a content hash gives both files the same identity, so
+    the hash alone cannot establish which product role an artefact played in a result.
+    No other family pair coincides, which suggests the cause lies in how envelope masking
+    is applied — a hypothesis, not something bound here to the published code or method
+    description.</p>
+  <h4>Scale</h4>
+  <dl>
+    <dt>species</dt><dd>630 — 101 fish, 189 macrophytes, 340 invertebrates</dd>
+    <dt>product families</dt><dd>7, each covering all 630 species</dd>
+    <dt>raster products</dt><dd>4 410, plus 1 260 sidecar files</dd>
+    <dt>archive entries</dt><dd>5 697, read from the archive's own central directory</dd>
+    <dt>retrieved here</dt><dd>10 members, 26 MB — 0.47 % of the archive</dd>
+  </dl>`
+ };
+}
+
+function render(){
+  const d=S[key], isFish=group==="fish";
+  document.getElementById("spRow").style.display=isFish?"":"none";
+  document.getElementById("prRow").style.display=isFish?"":"none";
+  document.querySelector(".cellnote").style.display=isFish?"":"none";
+  document.querySelectorAll(".tab").forEach(t=>{
+    t.style.display=(isFish||t.dataset.p==="insights")?"":"none";});
+  document.getElementById("panel").innerHTML=
+    isFish?views(d)[panel]:(panel==="insights"?views(d).insights:groupView(group));
+  document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected",String(t.dataset.p===panel)));
+  document.querySelectorAll("#grRow .opt").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.g===group)));
+  document.querySelectorAll("#spRow .opt").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.k===key)));
+  document.querySelectorAll("#prRow .opt").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.pr===prod)));
+}
+const grRow=document.getElementById("grRow");
+Object.keys(G).forEach(g=>{
+  const b=document.createElement("button");
+  b.className="opt"; b.dataset.g=g;
+  b.textContent=`${G[g].label} · ${G[g].species} species · ${G[g].rasters.toLocaleString("en")} rasters`;
+  b.addEventListener("click",()=>{group=g; if(g!=="fish"&&panel!=="insights") panel="evidence"; render();});
+  grRow.appendChild(b);
+});
+const spRow=document.getElementById("spRow");
+Object.keys(S).forEach(k=>{
+  const b=document.createElement("button");
+  b.className="opt"; b.dataset.k=k; b.innerHTML=`<span class="binomial">${S[k].full}</span>`;
+  b.addEventListener("click",()=>{key=k;render();});
+  spRow.appendChild(b);
+});
+const prRow=document.getElementById("prRow");
+[["probability","probability_tif"],["binary_strict","binary_strict_tif"]].forEach(([v,l])=>{
+  const b=document.createElement("button");
+  b.className="opt"; b.dataset.pr=v; b.textContent=l;
+  b.addEventListener("click",()=>{prod=v;render();});
+  prRow.appendChild(b);
+});
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{panel=t.dataset.p;render();}));
+render();
+</script>
+</body>
+</html>
