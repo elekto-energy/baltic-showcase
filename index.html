@@ -72,6 +72,14 @@
   .opt:focus-visible{outline:2px solid var(--break);outline-offset:2px}
   .cellnote{color:var(--ink-soft);font-size:.87rem;margin:.1rem 0 0;max-width:62ch;
     font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+  #grRow{display:grid;grid-template-columns:6.5rem repeat(3,1fr);gap:.45rem;align-items:stretch}
+  #grRow .opt{text-align:left;line-height:1.35;padding:.55rem .75rem}
+  .hint{color:var(--sound);font-size:.8rem;margin:-.35rem 0 0;padding-left:6.95rem;
+    font-family:"Iowan Old Style",Palatino,Georgia,serif;font-style:italic}
+  @media (max-width:44rem){
+    #grRow{grid-template-columns:1fr}
+    .hint{padding-left:0}
+  }
 
   nav.tabs{display:flex;flex-wrap:wrap;background:var(--shoal);border-bottom:1px solid #cfdad6}
   .tab{background:none;border:0;border-bottom:2px solid transparent;
@@ -110,15 +118,18 @@
   th{color:var(--sound);font-weight:400}
 
   /* EVE section on navy */
-  .chain{list-style:none;margin:0 0 1.6rem;padding:0;
-    font:400 .86rem/2 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#a8c0d8}
-  .chain li{padding-left:1.7rem;position:relative}
-  .chain li::before{content:"\2193";position:absolute;left:.35rem;color:var(--em-dim)}
-  .chain li:first-child::before{content:"\25CF";font-size:.6rem;top:.05rem}
-  .notlist{margin:0 0 1.6rem;padding:0 0 0 1.1rem;color:#9fb4cc;max-width:60ch}
-  .notlist li{margin:0 0 .4rem}
-  .pull{border-left:3px solid var(--em);padding:.15rem 0 .15rem 1.2rem;
-    color:#dbe6f2;font-size:1.1rem;max-width:52ch;margin:1.8rem 0 0}
+  .chain{list-style:none;margin:0 0 2rem;padding:0;
+    font:400 .95rem/2.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#b6ccdf}
+  .chain li{padding-left:2rem;position:relative}
+  .chain li::before{content:"\2193";position:absolute;left:.5rem;color:var(--em-dim);font-size:1.05rem}
+  .chain li:first-child::before{content:"\25CF";font-size:.6rem;top:.42rem}
+  .notlist{margin:0 0 1.6rem;padding:0 0 0 1.1rem;color:#a8c0d8;max-width:60ch;font-size:1rem}
+  .notlist li{margin:0 0 .55rem}
+  .pull{border-left:3px solid var(--em);padding:.3rem 0 .3rem 1.3rem;
+    color:#eaf3fb;font-size:1.28rem;line-height:1.5;max-width:52ch;margin:2rem 0 0}
+  #eve .sec-lede{font-size:1.06rem;color:#9fb4cc}
+  #eve .card p{font-size:.96rem}
+  #eve > p{font-size:1.02rem}
 
   .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.6rem}
   .card{background:var(--navy-2);border:1px solid var(--navy-3);border-radius:.5rem;padding:1.2rem 1.3rem}
@@ -173,6 +184,7 @@
       <div class="controls">
         <div class="row" id="grRow" role="group" aria-label="Taxonomic group"><span class="lbl">group</span></div>
         <div class="row" id="spRow" role="group" aria-label="Species"><span class="lbl">species</span></div>
+        <p class="hint">Compare the same location across species.</p>
         <div class="row" id="prRow" role="group" aria-label="Product family"><span class="lbl">product</span></div>
         <p class="cellnote">Row 3387, column 1926 — centre 4691222.4269 / 3965570.1766
           in EPSG:3035, which is 58.642°N 16.374°E, Bråviken on the Swedish east coast.</p>
@@ -188,7 +200,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="eve">
     <h2 class="sec">How EVE was used in this research showcase</h2>
     <p class="sec-lede">EVE was not used to generate the ecological models, and it does
       not determine whether they are scientifically correct. It was used as the
@@ -243,15 +255,15 @@
     <p class="sec-lede">All data used here is publicly available under CC-BY-4.0 and was
       produced by the Protect Baltic project, funded by the European Union's Horizon
       Europe programme.</p>
-    <dl style="color:#a8c0d8">
+    <dl style="color:#a8c0d8;grid-template-columns:8rem 1fr;font-size:.95rem">
       <dt style="color:#6f88a3">dataset</dt>
-      <dd><a href="https://doi.org/10.5281/zenodo.20309312">Zenodo record 20309312 — Protect Baltic WP3 SDMs</a></dd>
+      <dd><a href="https://doi.org/10.5281/zenodo.20309312" style="font-size:1rem">Zenodo record 20309312 — Protect Baltic WP3 SDMs</a></dd>
       <dt style="color:#6f88a3">project</dt>
-      <dd><a href="https://protectbaltic.eu/">protectbaltic.eu</a></dd>
+      <dd><a href="https://protectbaltic.eu/" style="font-size:1rem">protectbaltic.eu</a></dd>
       <dt style="color:#6f88a3">code</dt>
-      <dd><a href="https://github.com/helcomsecretariat">HELCOM Secretariat on GitHub</a></dd>
+      <dd><a href="https://github.com/helcomsecretariat" style="font-size:1rem">HELCOM Secretariat on GitHub</a></dd>
       <dt style="color:#6f88a3">preprint</dt>
-      <dd><a href="https://doi.org/10.21203/rs.3.rs-10132050/v1">doi.org/10.21203/rs.3.rs-10132050/v1</a></dd>
+      <dd><a href="https://doi.org/10.21203/rs.3.rs-10132050/v1" style="font-size:1rem">doi.org/10.21203/rs.3.rs-10132050/v1</a></dd>
     </dl>
     <div class="disclaimer">
       This is an independent research showcase using publicly available Protect Baltic
