@@ -1,0 +1,5111 @@
+{
+  "coinciding_family_pairs": [
+    {
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "species_count": 506
+    }
+  ],
+  "collisions": [
+    {
+      "crc32": "f20e8a81",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Abramis.brama",
+      "uncompressed_size_bytes": 394473
+    },
+    {
+      "crc32": "652af3d6",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Agonus.cataphractus",
+      "uncompressed_size_bytes": 389975
+    },
+    {
+      "crc32": "6399965a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Alburnus.alburnus",
+      "uncompressed_size_bytes": 425919
+    },
+    {
+      "crc32": "9b588ab4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Alosa.fallax",
+      "uncompressed_size_bytes": 415612
+    },
+    {
+      "crc32": "dedf5e5b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Amblyraja.radiata",
+      "uncompressed_size_bytes": 387549
+    },
+    {
+      "crc32": "ea1b57cb",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Ammodytes.marinus",
+      "uncompressed_size_bytes": 510057
+    },
+    {
+      "crc32": "4975078f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Ammodytes.tobianus",
+      "uncompressed_size_bytes": 494706
+    },
+    {
+      "crc32": "ab0b24ff",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Anguilla.anguilla",
+      "uncompressed_size_bytes": 387433
+    },
+    {
+      "crc32": "e910d71d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Aphia.minuta",
+      "uncompressed_size_bytes": 396248
+    },
+    {
+      "crc32": "03c8d8fc",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Argentina.sphyraena",
+      "uncompressed_size_bytes": 416297
+    },
+    {
+      "crc32": "cc8e854d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Arnoglossus.laterna",
+      "uncompressed_size_bytes": 382585
+    },
+    {
+      "crc32": "0ec53f40",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Belone.belone",
+      "uncompressed_size_bytes": 454801
+    },
+    {
+      "crc32": "f7d0c313",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Blicca.bjoerkna",
+      "uncompressed_size_bytes": 386313
+    },
+    {
+      "crc32": "63f6a714",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Buglossidium.luteum",
+      "uncompressed_size_bytes": 384869
+    },
+    {
+      "crc32": "0047772c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Callionymus.lyra",
+      "uncompressed_size_bytes": 372494
+    },
+    {
+      "crc32": "72a4d622",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Callionymus.maculatus",
+      "uncompressed_size_bytes": 381171
+    },
+    {
+      "crc32": "43d4c848",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Carassius.carassius",
+      "uncompressed_size_bytes": 395687
+    },
+    {
+      "crc32": "82685ebd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Centrolabrus.exoletus",
+      "uncompressed_size_bytes": 474797
+    },
+    {
+      "crc32": "6dfdf47c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Chelidonichthys.lucerna",
+      "uncompressed_size_bytes": 386779
+    },
+    {
+      "crc32": "cc81cdbe",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Ciliata.mustela",
+      "uncompressed_size_bytes": 382553
+    },
+    {
+      "crc32": "b9052893",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Clupea.harengus",
+      "uncompressed_size_bytes": 416955
+    },
+    {
+      "crc32": "0161a7d6",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Coregonus.albula",
+      "uncompressed_size_bytes": 393584
+    },
+    {
+      "crc32": "be040f84",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Coregonus.maraena",
+      "uncompressed_size_bytes": 464707
+    },
+    {
+      "crc32": "61d86ea1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Cottus.gobio",
+      "uncompressed_size_bytes": 461366
+    },
+    {
+      "crc32": "e6dd26de",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Ctenolabrus.rupestris",
+      "uncompressed_size_bytes": 392219
+    },
+    {
+      "crc32": "990715e6",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Cyclopterus.lumpus",
+      "uncompressed_size_bytes": 445598
+    },
+    {
+      "crc32": "51f013c8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Enchelyopus.cimbrius",
+      "uncompressed_size_bytes": 458938
+    },
+    {
+      "crc32": "118445e4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Engraulis.encrasicolus",
+      "uncompressed_size_bytes": 416622
+    },
+    {
+      "crc32": "770b2fb8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Entelurus.aequoreus",
+      "uncompressed_size_bytes": 372951
+    },
+    {
+      "crc32": "7fc1262b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Esox.lucius",
+      "uncompressed_size_bytes": 405673
+    },
+    {
+      "crc32": "67700da5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Eutrigla.gurnardus",
+      "uncompressed_size_bytes": 423570
+    },
+    {
+      "crc32": "dc8075f9",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Gadus.morhua",
+      "uncompressed_size_bytes": 442782
+    },
+    {
+      "crc32": "87da5c56",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Gasterosteus.aculeatus",
+      "uncompressed_size_bytes": 415828
+    },
+    {
+      "crc32": "488bd53f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Glyptocephalus.cynoglossus",
+      "uncompressed_size_bytes": 378753
+    },
+    {
+      "crc32": "fa16eaa2",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Gobius.niger",
+      "uncompressed_size_bytes": 397858
+    },
+    {
+      "crc32": "74816734",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Gymnocephalus.cernua",
+      "uncompressed_size_bytes": 405080
+    },
+    {
+      "crc32": "d600ff25",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Hippoglossoides.platessoides",
+      "uncompressed_size_bytes": 384357
+    },
+    {
+      "crc32": "d35b8e17",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Hyperoplus.immaculatus",
+      "uncompressed_size_bytes": 383762
+    },
+    {
+      "crc32": "e7d6655a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Hyperoplus.lanceolatus",
+      "uncompressed_size_bytes": 535314
+    },
+    {
+      "crc32": "f91228d5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Labrus.bergylta",
+      "uncompressed_size_bytes": 390253
+    },
+    {
+      "crc32": "e7864007",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Lampetra.fluviatilis",
+      "uncompressed_size_bytes": 511028
+    },
+    {
+      "crc32": "43e661aa",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Lepidorhombus.whiffiagonis",
+      "uncompressed_size_bytes": 379913
+    },
+    {
+      "crc32": "56fcbf23",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Leptoclinus.maculatus",
+      "uncompressed_size_bytes": 489377
+    },
+    {
+      "crc32": "1f961b4b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Lesueurigobius.friesii",
+      "uncompressed_size_bytes": 379588
+    },
+    {
+      "crc32": "5e8c2220",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Leuciscus.idus",
+      "uncompressed_size_bytes": 419236
+    },
+    {
+      "crc32": "5bf660a8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Leuciscus.leuciscus",
+      "uncompressed_size_bytes": 402939
+    },
+    {
+      "crc32": "2eee10c3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Limanda.limanda",
+      "uncompressed_size_bytes": 371957
+    },
+    {
+      "crc32": "2a484399",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Liparis.liparis",
+      "uncompressed_size_bytes": 523743
+    },
+    {
+      "crc32": "cafd76d3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Lophius.piscatorius",
+      "uncompressed_size_bytes": 388095
+    },
+    {
+      "crc32": "54cf607a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Lota.lota",
+      "uncompressed_size_bytes": 468421
+    },
+    {
+      "crc32": "c446060f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Lumpenus.lampretaeformis",
+      "uncompressed_size_bytes": 500118
+    },
+    {
+      "crc32": "f26a483f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Lycodes.vahlii",
+      "uncompressed_size_bytes": 390152
+    },
+    {
+      "crc32": "912d9c54",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Maurolicus.muelleri",
+      "uncompressed_size_bytes": 367515
+    },
+    {
+      "crc32": "ba68ec54",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Melanogrammus.aeglefinus",
+      "uncompressed_size_bytes": 386912
+    },
+    {
+      "crc32": "4f3bb612",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Merlangius.merlangus",
+      "uncompressed_size_bytes": 379560
+    },
+    {
+      "crc32": "c211f37b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Merluccius.merluccius",
+      "uncompressed_size_bytes": 414213
+    },
+    {
+      "crc32": "2613f494",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Micromesistius.poutassou",
+      "uncompressed_size_bytes": 359460
+    },
+    {
+      "crc32": "927d020a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Microstomus.kitt",
+      "uncompressed_size_bytes": 379110
+    },
+    {
+      "crc32": "12975064",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Molva.molva",
+      "uncompressed_size_bytes": 484321
+    },
+    {
+      "crc32": "6b484292",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Mullus.surmuletus",
+      "uncompressed_size_bytes": 387851
+    },
+    {
+      "crc32": "60402f83",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Myoxocephalus.quadricornis",
+      "uncompressed_size_bytes": 501731
+    },
+    {
+      "crc32": "a993ffb9",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Myoxocephalus.scorpius",
+      "uncompressed_size_bytes": 490826
+    },
+    {
+      "crc32": "3de4bfa5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Myxine.glutinosa",
+      "uncompressed_size_bytes": 368614
+    },
+    {
+      "crc32": "fcba5cde",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Neogobius.melanostomus",
+      "uncompressed_size_bytes": 430122
+    },
+    {
+      "crc32": "dcc37ff1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Nerophis.ophidion",
+      "uncompressed_size_bytes": 423895
+    },
+    {
+      "crc32": "33e74543",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Osmerus.eperlanus",
+      "uncompressed_size_bytes": 529713
+    },
+    {
+      "crc32": "d9f5d0fd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Perca.fluviatilis",
+      "uncompressed_size_bytes": 426461
+    },
+    {
+      "crc32": "b091228e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Pholis.gunnellus",
+      "uncompressed_size_bytes": 383278
+    },
+    {
+      "crc32": "4bcb533a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Phoxinus.phoxinus",
+      "uncompressed_size_bytes": 396649
+    },
+    {
+      "crc32": "580cb090",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Platichthys.flesus",
+      "uncompressed_size_bytes": 426136
+    },
+    {
+      "crc32": "0eabea47",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Pleuronectes.platessa",
+      "uncompressed_size_bytes": 408509
+    },
+    {
+      "crc32": "5a22f189",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Pollachius.pollachius",
+      "uncompressed_size_bytes": 383535
+    },
+    {
+      "crc32": "ff8f9103",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Pollachius.virens",
+      "uncompressed_size_bytes": 379087
+    },
+    {
+      "crc32": "8cdc2db8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Pomatoschistus.minutus",
+      "uncompressed_size_bytes": 510708
+    },
+    {
+      "crc32": "c5da28d1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Pungitius.pungitius",
+      "uncompressed_size_bytes": 466857
+    },
+    {
+      "crc32": "7bb3eb4b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Rutilus.rutilus",
+      "uncompressed_size_bytes": 421593
+    },
+    {
+      "crc32": "2d12f595",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Salmo.salar",
+      "uncompressed_size_bytes": 452089
+    },
+    {
+      "crc32": "b39ecb15",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Salmo.trutta",
+      "uncompressed_size_bytes": 474740
+    },
+    {
+      "crc32": "801134aa",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Sander.lucioperca",
+      "uncompressed_size_bytes": 400229
+    },
+    {
+      "crc32": "488680dd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Sardina.pilchardus",
+      "uncompressed_size_bytes": 383218
+    },
+    {
+      "crc32": "1441ad78",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Scardinius.erythrophthalmus",
+      "uncompressed_size_bytes": 397363
+    },
+    {
+      "crc32": "cc5ac8da",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Scomber.scombrus",
+      "uncompressed_size_bytes": 388224
+    },
+    {
+      "crc32": "819d988f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Scophthalmus.maximus",
+      "uncompressed_size_bytes": 442760
+    },
+    {
+      "crc32": "d69e2e1c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Scophthalmus.rhombus",
+      "uncompressed_size_bytes": 372816
+    },
+    {
+      "crc32": "9908fb59",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Scyliorhinus.canicula",
+      "uncompressed_size_bytes": 373439
+    },
+    {
+      "crc32": "f711701d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Solea.solea",
+      "uncompressed_size_bytes": 371017
+    },
+    {
+      "crc32": "cf1af488",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Spinachia.spinachia",
+      "uncompressed_size_bytes": 392485
+    },
+    {
+      "crc32": "48e0ab28",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Sprattus.sprattus",
+      "uncompressed_size_bytes": 438133
+    },
+    {
+      "crc32": "ced60b08",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Squalus.acanthias",
+      "uncompressed_size_bytes": 365477
+    },
+    {
+      "crc32": "851b5140",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Symphodus.melops",
+      "uncompressed_size_bytes": 371146
+    },
+    {
+      "crc32": "85c9db36",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Syngnathus.acus",
+      "uncompressed_size_bytes": 399879
+    },
+    {
+      "crc32": "f924629e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Syngnathus.rostellatus",
+      "uncompressed_size_bytes": 408052
+    },
+    {
+      "crc32": "40e45e35",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Syngnathus.typhle",
+      "uncompressed_size_bytes": 469523
+    },
+    {
+      "crc32": "d15b3508",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Taurulus.bubalis",
+      "uncompressed_size_bytes": 467034
+    },
+    {
+      "crc32": "1ffb40ab",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Tinca.tinca",
+      "uncompressed_size_bytes": 391835
+    },
+    {
+      "crc32": "7ad47a63",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Trachinus.draco",
+      "uncompressed_size_bytes": 380125
+    },
+    {
+      "crc32": "7f2478ba",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Trachurus.trachurus",
+      "uncompressed_size_bytes": 391607
+    },
+    {
+      "crc32": "ae1c6474",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Trisopterus.esmarkii",
+      "uncompressed_size_bytes": 383510
+    },
+    {
+      "crc32": "0ab7d615",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Trisopterus.minutus",
+      "uncompressed_size_bytes": 389555
+    },
+    {
+      "crc32": "c1b1115f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Vimba.vimba",
+      "uncompressed_size_bytes": 391015
+    },
+    {
+      "crc32": "9ba98a98",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "fish",
+      "species": "Zoarces.viviparus",
+      "uncompressed_size_bytes": 610757
+    },
+    {
+      "crc32": "4265e1b6",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Abra.alba",
+      "uncompressed_size_bytes": 384101
+    },
+    {
+      "crc32": "f44a3b79",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Abra.nitida",
+      "uncompressed_size_bytes": 377159
+    },
+    {
+      "crc32": "d9ddd5ca",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Abyssoninoe.hibernica",
+      "uncompressed_size_bytes": 387373
+    },
+    {
+      "crc32": "48f35237",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Acanthocardia.echinata",
+      "uncompressed_size_bytes": 393118
+    },
+    {
+      "crc32": "56f84d99",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Akera.bullata",
+      "uncompressed_size_bytes": 622921
+    },
+    {
+      "crc32": "7df01712",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Alitta.succinea",
+      "uncompressed_size_bytes": 397067
+    },
+    {
+      "crc32": "887b29e3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Alkmaria.romijni",
+      "uncompressed_size_bytes": 488224
+    },
+    {
+      "crc32": "ed27f427",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Alloteuthis.subulata",
+      "uncompressed_size_bytes": 376966
+    },
+    {
+      "crc32": "b974e6b3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampelisca.brevicornis",
+      "uncompressed_size_bytes": 381571
+    },
+    {
+      "crc32": "83ff78dd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampelisca.diadema",
+      "uncompressed_size_bytes": 378587
+    },
+    {
+      "crc32": "d5670837",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampelisca.macrocephala",
+      "uncompressed_size_bytes": 383512
+    },
+    {
+      "crc32": "951bf38f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampelisca.tenuicornis",
+      "uncompressed_size_bytes": 374437
+    },
+    {
+      "crc32": "fc74798a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampharete.acutifrons",
+      "uncompressed_size_bytes": 556702
+    },
+    {
+      "crc32": "5e84c219",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampharete.baltica",
+      "uncompressed_size_bytes": 411883
+    },
+    {
+      "crc32": "c5f4a837",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampharete.finmarchica",
+      "uncompressed_size_bytes": 427723
+    },
+    {
+      "crc32": "6eda0d07",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampharete.lindstroemi",
+      "uncompressed_size_bytes": 382463
+    },
+    {
+      "crc32": "ad4a7d36",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Amphiura.chiajei",
+      "uncompressed_size_bytes": 385554
+    },
+    {
+      "crc32": "15143fc0",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Amphiura.filiformis",
+      "uncompressed_size_bytes": 372779
+    },
+    {
+      "crc32": "bb9e33a3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ampithoe.rubricata",
+      "uncompressed_size_bytes": 556518
+    },
+    {
+      "crc32": "f1d831ec",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Anobothrus.gracilis",
+      "uncompressed_size_bytes": 378827
+    },
+    {
+      "crc32": "368e45b3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Anoplodactylus.petiolatus",
+      "uncompressed_size_bytes": 383817
+    },
+    {
+      "crc32": "17f33391",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Apherusa.bispinosa",
+      "uncompressed_size_bytes": 413330
+    },
+    {
+      "crc32": "320903bc",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Aphrodita.aculeata",
+      "uncompressed_size_bytes": 391992
+    },
+    {
+      "crc32": "30e17a9b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Apistobranchus.tullbergi",
+      "uncompressed_size_bytes": 375328
+    },
+    {
+      "crc32": "5c2b49f1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Aporrhais.pespelecani",
+      "uncompressed_size_bytes": 369493
+    },
+    {
+      "crc32": "35ce8efe",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Arctica.islandica",
+      "uncompressed_size_bytes": 383557
+    },
+    {
+      "crc32": "f973776c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Arenicola.marina",
+      "uncompressed_size_bytes": 386182
+    },
+    {
+      "crc32": "970ee82c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Aricidea.cerrutii",
+      "uncompressed_size_bytes": 481787
+    },
+    {
+      "crc32": "ad088b04",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Aricidea.minuta",
+      "uncompressed_size_bytes": 385443
+    },
+    {
+      "crc32": "08af3c53",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Aricidea.suecica",
+      "uncompressed_size_bytes": 393458
+    },
+    {
+      "crc32": "be925e72",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Artacama.proboscidea",
+      "uncompressed_size_bytes": 377348
+    },
+    {
+      "crc32": "84e8ab3f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ascidiella.aspersa",
+      "uncompressed_size_bytes": 463134
+    },
+    {
+      "crc32": "cc8378b8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Astarte.borealis",
+      "uncompressed_size_bytes": 444028
+    },
+    {
+      "crc32": "c13ecc66",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Astarte.elliptica",
+      "uncompressed_size_bytes": 417047
+    },
+    {
+      "crc32": "b9fd2648",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Astarte.montagui",
+      "uncompressed_size_bytes": 373026
+    },
+    {
+      "crc32": "fd901876",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Astarte.sulcata",
+      "uncompressed_size_bytes": 458121
+    },
+    {
+      "crc32": "451c5be2",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Asterias.rubens",
+      "uncompressed_size_bytes": 415237
+    },
+    {
+      "crc32": "90c29a5d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Baltidrilus.costatus",
+      "uncompressed_size_bytes": 389350
+    },
+    {
+      "crc32": "16b8d663",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Bathyporeia.elegans",
+      "uncompressed_size_bytes": 384367
+    },
+    {
+      "crc32": "fec7531c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Bathyporeia.guilliamsonia",
+      "uncompressed_size_bytes": 382763
+    },
+    {
+      "crc32": "22bcdaff",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Bathyporeia.pelagica",
+      "uncompressed_size_bytes": 367364
+    },
+    {
+      "crc32": "ff19f7c4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Bathyporeia.pilosa",
+      "uncompressed_size_bytes": 603996
+    },
+    {
+      "crc32": "77e8b0e0",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Bathyporeia.sarsi",
+      "uncompressed_size_bytes": 478077
+    },
+    {
+      "crc32": "a96b7ace",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Bittium.reticulatum",
+      "uncompressed_size_bytes": 381301
+    },
+    {
+      "crc32": "f2a65f59",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Brachystomia.scalaris",
+      "uncompressed_size_bytes": 502463
+    },
+    {
+      "crc32": "9ff697b5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Brada.villosa",
+      "uncompressed_size_bytes": 385987
+    },
+    {
+      "crc32": "d9cc8980",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Branchiostoma.lanceolatum",
+      "uncompressed_size_bytes": 379949
+    },
+    {
+      "crc32": "f172add2",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Brissopsis.lyrifera",
+      "uncompressed_size_bytes": 373371
+    },
+    {
+      "crc32": "919f49e2",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Buccinum.undatum",
+      "uncompressed_size_bytes": 378176
+    },
+    {
+      "crc32": "5c0f0ce8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Bylgides.sarsi",
+      "uncompressed_size_bytes": 462840
+    },
+    {
+      "crc32": "760b422a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Callianassa.subterranea",
+      "uncompressed_size_bytes": 370697
+    },
+    {
+      "crc32": "0a6d31c5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Cancer.pagurus",
+      "uncompressed_size_bytes": 371700
+    },
+    {
+      "crc32": "8165b24c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Capitella.capitata",
+      "uncompressed_size_bytes": 389520
+    },
+    {
+      "crc32": "cef9a0bd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Caprella.linearis",
+      "uncompressed_size_bytes": 378399
+    },
+    {
+      "crc32": "e63e0eae",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Carcinus.maenas",
+      "uncompressed_size_bytes": 373403
+    },
+    {
+      "crc32": "ee8f30ee",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Cerastoderma.edule",
+      "uncompressed_size_bytes": 440402
+    },
+    {
+      "crc32": "5b17fd27",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Cerastoderma.glaucum",
+      "uncompressed_size_bytes": 488776
+    },
+    {
+      "crc32": "36a81f79",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Chaetoderma.nitidulum",
+      "uncompressed_size_bytes": 374909
+    },
+    {
+      "crc32": "c1b93ba8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Chaetozone.setosa",
+      "uncompressed_size_bytes": 376899
+    },
+    {
+      "crc32": "a9bb4bcf",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Chamelea.gallina",
+      "uncompressed_size_bytes": 376826
+    },
+    {
+      "crc32": "14d5eb5b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Cheirocratus.sundevallii",
+      "uncompressed_size_bytes": 450342
+    },
+    {
+      "crc32": "49900b59",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Chironomus.plumosus",
+      "uncompressed_size_bytes": 367627
+    },
+    {
+      "crc32": "8c103335",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Chone.fauveli",
+      "uncompressed_size_bytes": 387541
+    },
+    {
+      "crc32": "94e11e17",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Chone.filicaudata",
+      "uncompressed_size_bytes": 363213
+    },
+    {
+      "crc32": "5648cc00",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Clitellio.arenarius",
+      "uncompressed_size_bytes": 381023
+    },
+    {
+      "crc32": "68a225ef",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Cochlodesma.praetenue",
+      "uncompressed_size_bytes": 371991
+    },
+    {
+      "crc32": "9d919082",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Corbula.gibba",
+      "uncompressed_size_bytes": 396089
+    },
+    {
+      "crc32": "91d79fdb",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Corophium.multisetosum",
+      "uncompressed_size_bytes": 523012
+    },
+    {
+      "crc32": "367a5b8e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Corophium.volutator",
+      "uncompressed_size_bytes": 495543
+    },
+    {
+      "crc32": "e5a7679b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Crangon.crangon",
+      "uncompressed_size_bytes": 565589
+    },
+    {
+      "crc32": "c119c106",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Crassicorophium.crassicor",
+      "uncompressed_size_bytes": 388387
+    },
+    {
+      "crc32": "6c949360",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Crenella.decussata",
+      "uncompressed_size_bytes": 372892
+    },
+    {
+      "crc32": "95f4a8b6",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Cyanophthalma.obscura",
+      "uncompressed_size_bytes": 567251
+    },
+    {
+      "crc32": "c8ef9a95",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Cyathura.carinata",
+      "uncompressed_size_bytes": 387169
+    },
+    {
+      "crc32": "9247a9c0",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Cylichna.cylindracea",
+      "uncompressed_size_bytes": 370516
+    },
+    {
+      "crc32": "a6918b81",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Diastylis.laevis",
+      "uncompressed_size_bytes": 392812
+    },
+    {
+      "crc32": "ad1121fd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Diastylis.lucifera",
+      "uncompressed_size_bytes": 404978
+    },
+    {
+      "crc32": "ec17122c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Diastylis.rathkei",
+      "uncompressed_size_bytes": 434719
+    },
+    {
+      "crc32": "7d063397",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Diastyloides.biplicatus",
+      "uncompressed_size_bytes": 431177
+    },
+    {
+      "crc32": "9ed160af",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Diplocirrus.glaucus",
+      "uncompressed_size_bytes": 377721
+    },
+    {
+      "crc32": "e619a006",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Dipolydora.quadrilobata",
+      "uncompressed_size_bytes": 376515
+    },
+    {
+      "crc32": "53b488d0",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Dosinia.exoleta",
+      "uncompressed_size_bytes": 383021
+    },
+    {
+      "crc32": "c945f2ab",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Dosinia.lupinus",
+      "uncompressed_size_bytes": 385675
+    },
+    {
+      "crc32": "4fd7d238",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Dyopedos.monacanthus",
+      "uncompressed_size_bytes": 453832
+    },
+    {
+      "crc32": "e0c59c59",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Echinocardium.cordatum",
+      "uncompressed_size_bytes": 384236
+    },
+    {
+      "crc32": "2997e87e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Echinocyamus.pusillus",
+      "uncompressed_size_bytes": 395835
+    },
+    {
+      "crc32": "e5649b19",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Echiurus.echiurus",
+      "uncompressed_size_bytes": 387439
+    },
+    {
+      "crc32": "68cba1f4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ecrobia.ventrosa",
+      "uncompressed_size_bytes": 560670
+    },
+    {
+      "crc32": "860a1859",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Edwardsia.danica",
+      "uncompressed_size_bytes": 384120
+    },
+    {
+      "crc32": "c7b89dea",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Edwardsia.longicornis",
+      "uncompressed_size_bytes": 404849
+    },
+    {
+      "crc32": "23755da7",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Enipo.kinbergi",
+      "uncompressed_size_bytes": 449218
+    },
+    {
+      "crc32": "6fe8b355",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ennucula.tenuis",
+      "uncompressed_size_bytes": 390963
+    },
+    {
+      "crc32": "9bc845af",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ericthonius.brasiliensis",
+      "uncompressed_size_bytes": 416616
+    },
+    {
+      "crc32": "5ae72d8b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Erinaceusyllis.erinaceus",
+      "uncompressed_size_bytes": 504152
+    },
+    {
+      "crc32": "90868daa",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Eriopisa.elongata",
+      "uncompressed_size_bytes": 411677
+    },
+    {
+      "crc32": "a131f210",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Eteone.longa",
+      "uncompressed_size_bytes": 395596
+    },
+    {
+      "crc32": "e08db538",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Euchone.papillosa",
+      "uncompressed_size_bytes": 456335
+    },
+    {
+      "crc32": "f84606db",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Eudorella.emarginata",
+      "uncompressed_size_bytes": 426596
+    },
+    {
+      "crc32": "9e7bb238",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Eudorella.truncatula",
+      "uncompressed_size_bytes": 388546
+    },
+    {
+      "crc32": "ad48324c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Eumida.bahusiensis",
+      "uncompressed_size_bytes": 376396
+    },
+    {
+      "crc32": "69a6f4ed",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Eumida.sanguinea",
+      "uncompressed_size_bytes": 402636
+    },
+    {
+      "crc32": "9f4439be",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Exogone.naidina",
+      "uncompressed_size_bytes": 423309
+    },
+    {
+      "crc32": "db9b2b95",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Fabricia.stellaris",
+      "uncompressed_size_bytes": 457316
+    },
+    {
+      "crc32": "1d64a890",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Fabriciola.baltica",
+      "uncompressed_size_bytes": 398738
+    },
+    {
+      "crc32": "80566fdf",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Fabulina.fabula",
+      "uncompressed_size_bytes": 373167
+    },
+    {
+      "crc32": "2164b167",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Galathowenia.oculata",
+      "uncompressed_size_bytes": 379046
+    },
+    {
+      "crc32": "47fd3b0d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gammarellus.homari",
+      "uncompressed_size_bytes": 417600
+    },
+    {
+      "crc32": "27bdf2b5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gammarus.inaequicauda",
+      "uncompressed_size_bytes": 394017
+    },
+    {
+      "crc32": "d350f601",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gammarus.locusta",
+      "uncompressed_size_bytes": 524996
+    },
+    {
+      "crc32": "4af2327e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gammarus.oceanicus",
+      "uncompressed_size_bytes": 572194
+    },
+    {
+      "crc32": "e9a82e86",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gammarus.salinus",
+      "uncompressed_size_bytes": 559638
+    },
+    {
+      "crc32": "8bd44576",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gammarus.tigrinus",
+      "uncompressed_size_bytes": 521755
+    },
+    {
+      "crc32": "a3ff8f24",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gammarus.zaddachi",
+      "uncompressed_size_bytes": 585675
+    },
+    {
+      "crc32": "a6c3b15a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gastrosaccus.spinifer",
+      "uncompressed_size_bytes": 392221
+    },
+    {
+      "crc32": "852a3d24",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Gattyana.cirrhosa",
+      "uncompressed_size_bytes": 406143
+    },
+    {
+      "crc32": "d974a984",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Glycera.alba",
+      "uncompressed_size_bytes": 378654
+    },
+    {
+      "crc32": "046bf929",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Glycera.unicornis",
+      "uncompressed_size_bytes": 387005
+    },
+    {
+      "crc32": "88848877",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Glycinde.nordmanni",
+      "uncompressed_size_bytes": 381620
+    },
+    {
+      "crc32": "2302c22c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Golfingia.vulgaris",
+      "uncompressed_size_bytes": 365994
+    },
+    {
+      "crc32": "65f035f1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Goniada.maculata",
+      "uncompressed_size_bytes": 371302
+    },
+    {
+      "crc32": "da691441",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Halcampa.duodecimcirrata",
+      "uncompressed_size_bytes": 393754
+    },
+    {
+      "crc32": "7f4ac92f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Halicryptus.spinulosus",
+      "uncompressed_size_bytes": 510468
+    },
+    {
+      "crc32": "0da18efa",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Haploops.tubicola",
+      "uncompressed_size_bytes": 368637
+    },
+    {
+      "crc32": "170b8b14",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Harmothoe.imbricata",
+      "uncompressed_size_bytes": 406755
+    },
+    {
+      "crc32": "1b74aa35",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Harpinia.antennaria",
+      "uncompressed_size_bytes": 376135
+    },
+    {
+      "crc32": "9f9af60d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Harpinia.pectinata",
+      "uncompressed_size_bytes": 371542
+    },
+    {
+      "crc32": "c1dd3547",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Haustorius.arenarius",
+      "uncompressed_size_bytes": 411302
+    },
+    {
+      "crc32": "1a4d5a14",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Hediste.diversicolor",
+      "uncompressed_size_bytes": 484134
+    },
+    {
+      "crc32": "be01ae9d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Hermania.scabra",
+      "uncompressed_size_bytes": 382661
+    },
+    {
+      "crc32": "8f31035a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Heteromastus.filiformis",
+      "uncompressed_size_bytes": 395193
+    },
+    {
+      "crc32": "839d15dc",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Heterotanais.oerstedii",
+      "uncompressed_size_bytes": 393168
+    },
+    {
+      "crc32": "0d5203ea",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Hiatella.arctica",
+      "uncompressed_size_bytes": 390792
+    },
+    {
+      "crc32": "f8ca2596",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Homarus.gammarus",
+      "uncompressed_size_bytes": 390218
+    },
+    {
+      "crc32": "e7c7237e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Hyala.vitrea",
+      "uncompressed_size_bytes": 381982
+    },
+    {
+      "crc32": "c0cdf27d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Hyas.araneus",
+      "uncompressed_size_bytes": 373944
+    },
+    {
+      "crc32": "c9cbd536",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Idotea.balthica",
+      "uncompressed_size_bytes": 511265
+    },
+    {
+      "crc32": "99931bcd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Idotea.chelipes",
+      "uncompressed_size_bytes": 514279
+    },
+    {
+      "crc32": "ca676434",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Jaera.albifrons",
+      "uncompressed_size_bytes": 556071
+    },
+    {
+      "crc32": "e7348262",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Kurtiella.bidentata",
+      "uncompressed_size_bytes": 382623
+    },
+    {
+      "crc32": "c3efbc3d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Labidoplax.buskii",
+      "uncompressed_size_bytes": 377243
+    },
+    {
+      "crc32": "5685be95",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Lagis.koreni",
+      "uncompressed_size_bytes": 507326
+    },
+    {
+      "crc32": "133af7a4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Lamprops.fasciatus",
+      "uncompressed_size_bytes": 406982
+    },
+    {
+      "crc32": "b0f7dc96",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Lanice.conchilega",
+      "uncompressed_size_bytes": 377699
+    },
+    {
+      "crc32": "310d181c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Laonice.bahusiensis",
+      "uncompressed_size_bytes": 367105
+    },
+    {
+      "crc32": "da8f92bf",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Laonome.kroyeri",
+      "uncompressed_size_bytes": 372419
+    },
+    {
+      "crc32": "e1a76993",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Leptocheirus.pilosus",
+      "uncompressed_size_bytes": 501182
+    },
+    {
+      "crc32": "b0b79d8c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Leptochiton.asellus",
+      "uncompressed_size_bytes": 483015
+    },
+    {
+      "crc32": "d289efe8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Leucon.nasica",
+      "uncompressed_size_bytes": 370269
+    },
+    {
+      "crc32": "898d938b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Leucothoe.lilljeborgi",
+      "uncompressed_size_bytes": 384233
+    },
+    {
+      "crc32": "4d200b06",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Levinsenia.gracilis",
+      "uncompressed_size_bytes": 380731
+    },
+    {
+      "crc32": "c2f7a158",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Limecola.balthica",
+      "uncompressed_size_bytes": 499545
+    },
+    {
+      "crc32": "f40ee290",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Lineus.ruber",
+      "uncompressed_size_bytes": 503828
+    },
+    {
+      "crc32": "26981fe5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Lipobranchius.jeffreysii",
+      "uncompressed_size_bytes": 406814
+    },
+    {
+      "crc32": "fd4f2618",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Littorina.littorea",
+      "uncompressed_size_bytes": 408048
+    },
+    {
+      "crc32": "ff2170b4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Littorina.saxatilis",
+      "uncompressed_size_bytes": 387661
+    },
+    {
+      "crc32": "c00ac91d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Loligo.forbesii",
+      "uncompressed_size_bytes": 370069
+    },
+    {
+      "crc32": "bea110a3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Lucinoma.borealis",
+      "uncompressed_size_bytes": 477701
+    },
+    {
+      "crc32": "fb313f53",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Lysilla.loveni",
+      "uncompressed_size_bytes": 394230
+    },
+    {
+      "crc32": "3c15a676",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Macoma.calcarea",
+      "uncompressed_size_bytes": 384745
+    },
+    {
+      "crc32": "5c8e6794",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Macroplea.mutica",
+      "uncompressed_size_bytes": 363938
+    },
+    {
+      "crc32": "6688dd8e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Macropodia.rostrata",
+      "uncompressed_size_bytes": 361713
+    },
+    {
+      "crc32": "dd079e61",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Magelona.alleni",
+      "uncompressed_size_bytes": 382991
+    },
+    {
+      "crc32": "19f31dbe",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Magelona.minuta",
+      "uncompressed_size_bytes": 376063
+    },
+    {
+      "crc32": "5b4cf6a8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Magelona.mirabilis",
+      "uncompressed_size_bytes": 384194
+    },
+    {
+      "crc32": "c04eef0e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Malacobdella.grossa",
+      "uncompressed_size_bytes": 381245
+    },
+    {
+      "crc32": "c6e339d1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Maldane.sarsi",
+      "uncompressed_size_bytes": 378111
+    },
+    {
+      "crc32": "0cbc66e5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Manayunkia.aestuarina",
+      "uncompressed_size_bytes": 556591
+    },
+    {
+      "crc32": "bdce3f6e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Marenzelleria",
+      "uncompressed_size_bytes": 412369
+    },
+    {
+      "crc32": "07f44259",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Mediomastus.fragilis",
+      "uncompressed_size_bytes": 401988
+    },
+    {
+      "crc32": "5a22bc50",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Megamphopus.cornutus",
+      "uncompressed_size_bytes": 550726
+    },
+    {
+      "crc32": "f3e812b4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Melita.palmata",
+      "uncompressed_size_bytes": 496244
+    },
+    {
+      "crc32": "37864efc",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Microdeutopus.gryllotalpa",
+      "uncompressed_size_bytes": 404363
+    },
+    {
+      "crc32": "f18a32b3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Microphthalmus.sczelkowii",
+      "uncompressed_size_bytes": 386757
+    },
+    {
+      "crc32": "3dd6f91b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Micrura.baltica",
+      "uncompressed_size_bytes": 510735
+    },
+    {
+      "crc32": "434dc27c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Molgula.manhattensis",
+      "uncompressed_size_bytes": 364848
+    },
+    {
+      "crc32": "4e884cb9",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Monocorophium.insidiosum",
+      "uncompressed_size_bytes": 402916
+    },
+    {
+      "crc32": "77d327d2",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Monoporeia.affinis",
+      "uncompressed_size_bytes": 471822
+    },
+    {
+      "crc32": "f8d46233",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Musculus.discors",
+      "uncompressed_size_bytes": 388030
+    },
+    {
+      "crc32": "c7436b7b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Musculus.niger",
+      "uncompressed_size_bytes": 374310
+    },
+    {
+      "crc32": "5a6c6bba",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Mya.arenaria",
+      "uncompressed_size_bytes": 467974
+    },
+    {
+      "crc32": "e1bb96f3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Mya.truncata",
+      "uncompressed_size_bytes": 427232
+    },
+    {
+      "crc32": "2ccd26e3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Mysia.undata",
+      "uncompressed_size_bytes": 376838
+    },
+    {
+      "crc32": "8d559e01",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Mysis.mixta",
+      "uncompressed_size_bytes": 520335
+    },
+    {
+      "crc32": "4f103021",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Mysis.relicta",
+      "uncompressed_size_bytes": 418997
+    },
+    {
+      "crc32": "48443687",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Neoamphitrite.figulus",
+      "uncompressed_size_bytes": 414861
+    },
+    {
+      "crc32": "492c7065",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Neomysis.integer",
+      "uncompressed_size_bytes": 534652
+    },
+    {
+      "crc32": "65265bcb",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nephrops.norvegicus",
+      "uncompressed_size_bytes": 369325
+    },
+    {
+      "crc32": "4825810d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nephtys.assimilis",
+      "uncompressed_size_bytes": 377467
+    },
+    {
+      "crc32": "611ddc17",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nephtys.caeca",
+      "uncompressed_size_bytes": 398291
+    },
+    {
+      "crc32": "807ad5ca",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nephtys.ciliata",
+      "uncompressed_size_bytes": 385399
+    },
+    {
+      "crc32": "692ece18",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nephtys.cirrosa",
+      "uncompressed_size_bytes": 404387
+    },
+    {
+      "crc32": "fed5e104",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nephtys.incisa",
+      "uncompressed_size_bytes": 414732
+    },
+    {
+      "crc32": "448f32c8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nephtys.longosetosa",
+      "uncompressed_size_bytes": 384221
+    },
+    {
+      "crc32": "be158514",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nephtys.pente",
+      "uncompressed_size_bytes": 411981
+    },
+    {
+      "crc32": "d6165adc",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nereimyra.punctata",
+      "uncompressed_size_bytes": 393394
+    },
+    {
+      "crc32": "0acaeed5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nicolea.zostericola",
+      "uncompressed_size_bytes": 554983
+    },
+    {
+      "crc32": "598612d4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nicomache.minor",
+      "uncompressed_size_bytes": 443455
+    },
+    {
+      "crc32": "3f776c9a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Notomastus.latericeus",
+      "uncompressed_size_bytes": 374023
+    },
+    {
+      "crc32": "8f70b425",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nucula.nitidosa",
+      "uncompressed_size_bytes": 375689
+    },
+    {
+      "crc32": "e617857b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nucula.sulcata",
+      "uncompressed_size_bytes": 375256
+    },
+    {
+      "crc32": "f0091727",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nuculana.pernula",
+      "uncompressed_size_bytes": 393256
+    },
+    {
+      "crc32": "ed54d187",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Nymphon.brevirostre",
+      "uncompressed_size_bytes": 456723
+    },
+    {
+      "crc32": "122ca992",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Onoba.semicostata",
+      "uncompressed_size_bytes": 457247
+    },
+    {
+      "crc32": "4eee970a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ophelia.borealis",
+      "uncompressed_size_bytes": 378832
+    },
+    {
+      "crc32": "c5ef064a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ophelia.rathkei",
+      "uncompressed_size_bytes": 385113
+    },
+    {
+      "crc32": "b2d3373c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ophelina.acuminata",
+      "uncompressed_size_bytes": 383810
+    },
+    {
+      "crc32": "aba69a15",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Ophiura.albida",
+      "uncompressed_size_bytes": 376986
+    },
+    {
+      "crc32": "f3b1ee66",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Owenia.fusiformis",
+      "uncompressed_size_bytes": 376903
+    },
+    {
+      "crc32": "453208f9",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Oxydromus.flexuosus",
+      "uncompressed_size_bytes": 387979
+    },
+    {
+      "crc32": "3482fb33",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Palaemon.adspersus",
+      "uncompressed_size_bytes": 511926
+    },
+    {
+      "crc32": "df427e85",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Paradoneis.eliasoni",
+      "uncompressed_size_bytes": 387997
+    },
+    {
+      "crc32": "b62e3a86",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Paramphinome.jeffreysii",
+      "uncompressed_size_bytes": 369227
+    },
+    {
+      "crc32": "8d8fbda4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Paraonis.fulgens",
+      "uncompressed_size_bytes": 413378
+    },
+    {
+      "crc32": "851f0d7d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Parathyasira.equalis",
+      "uncompressed_size_bytes": 383766
+    },
+    {
+      "crc32": "be9debeb",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Parexogone.hebes",
+      "uncompressed_size_bytes": 389684
+    },
+    {
+      "crc32": "03e98f79",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pariambus.typicus",
+      "uncompressed_size_bytes": 411797
+    },
+    {
+      "crc32": "c5b9fe03",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Parvicardium.exiguum",
+      "uncompressed_size_bytes": 400682
+    },
+    {
+      "crc32": "2b708cb8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Parvicardium.hauniense",
+      "uncompressed_size_bytes": 363500
+    },
+    {
+      "crc32": "f2e8f78e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Parvicardium.minimum",
+      "uncompressed_size_bytes": 386362
+    },
+    {
+      "crc32": "377ffb59",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Parvicardium.pinnulatum",
+      "uncompressed_size_bytes": 388281
+    },
+    {
+      "crc32": "007a9142",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Parvicardium.scabrum",
+      "uncompressed_size_bytes": 456938
+    },
+    {
+      "crc32": "d40d96f9",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pectinaria.belgica",
+      "uncompressed_size_bytes": 377550
+    },
+    {
+      "crc32": "f3509be5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pennatula.phosphorea",
+      "uncompressed_size_bytes": 379582
+    },
+    {
+      "crc32": "2d268e99",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Peringia.ulvae",
+      "uncompressed_size_bytes": 472670
+    },
+    {
+      "crc32": "33ecfead",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Perioculodes.longimanus",
+      "uncompressed_size_bytes": 391191
+    },
+    {
+      "crc32": "b5bbb275",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Phaxas.pellucidus",
+      "uncompressed_size_bytes": 402323
+    },
+    {
+      "crc32": "9a9ecd91",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pherusa.plumosa",
+      "uncompressed_size_bytes": 386677
+    },
+    {
+      "crc32": "22d25e7b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Philine.aperta",
+      "uncompressed_size_bytes": 388904
+    },
+    {
+      "crc32": "2879502a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Philine.quadripartita",
+      "uncompressed_size_bytes": 372509
+    },
+    {
+      "crc32": "b80240bf",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pholoe.assimilis",
+      "uncompressed_size_bytes": 377634
+    },
+    {
+      "crc32": "fa525d2d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pholoe.baltica",
+      "uncompressed_size_bytes": 375680
+    },
+    {
+      "crc32": "76c9e1b5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pholoe.inornata",
+      "uncompressed_size_bytes": 383207
+    },
+    {
+      "crc32": "ebf9b8c5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pholoe.pallida",
+      "uncompressed_size_bytes": 370432
+    },
+    {
+      "crc32": "be5b283f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Phoronis.muelleri",
+      "uncompressed_size_bytes": 379093
+    },
+    {
+      "crc32": "91359300",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Photis.longicaudata",
+      "uncompressed_size_bytes": 479515
+    },
+    {
+      "crc32": "ebc297b4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Phoxocephalus.holbolli",
+      "uncompressed_size_bytes": 396492
+    },
+    {
+      "crc32": "ac96eea4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Phyllodoce.groenlandica",
+      "uncompressed_size_bytes": 384333
+    },
+    {
+      "crc32": "2cfda772",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Phyllodoce.mucosa",
+      "uncompressed_size_bytes": 406519
+    },
+    {
+      "crc32": "431e89ab",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Phyllodoce.rosea",
+      "uncompressed_size_bytes": 396680
+    },
+    {
+      "crc32": "aea7f066",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pisione.remota",
+      "uncompressed_size_bytes": 402094
+    },
+    {
+      "crc32": "76274ee6",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Platynereis.dumerilii",
+      "uncompressed_size_bytes": 389191
+    },
+    {
+      "crc32": "852f93f5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Poecilochaetus.serpens",
+      "uncompressed_size_bytes": 382374
+    },
+    {
+      "crc32": "b209dee5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Polycirrus.medusa",
+      "uncompressed_size_bytes": 383581
+    },
+    {
+      "crc32": "e9b75250",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Polycirrus.norvegicus",
+      "uncompressed_size_bytes": 380425
+    },
+    {
+      "crc32": "b76ccc04",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Polycirrus.plumosus",
+      "uncompressed_size_bytes": 370483
+    },
+    {
+      "crc32": "e3bcc925",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Polydora.cornuta",
+      "uncompressed_size_bytes": 391122
+    },
+    {
+      "crc32": "6ece9af0",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Polyphysia.crassa",
+      "uncompressed_size_bytes": 372771
+    },
+    {
+      "crc32": "1778d663",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pontoporeia.femorata",
+      "uncompressed_size_bytes": 549072
+    },
+    {
+      "crc32": "43ddfd83",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Potamopyrgus.antipodarum",
+      "uncompressed_size_bytes": 475968
+    },
+    {
+      "crc32": "37334bd5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Praxillella.affinis",
+      "uncompressed_size_bytes": 383601
+    },
+    {
+      "crc32": "04ff3bd0",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Praxillella.praetermissa",
+      "uncompressed_size_bytes": 375686
+    },
+    {
+      "crc32": "7dcd44a9",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Priapulus.caudatus",
+      "uncompressed_size_bytes": 462806
+    },
+    {
+      "crc32": "25934d2b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Prionospio.fallax",
+      "uncompressed_size_bytes": 376863
+    },
+    {
+      "crc32": "60541f64",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Prionospio.multibranchiat",
+      "uncompressed_size_bytes": 371141
+    },
+    {
+      "crc32": "8761ce0d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Prionospio.steenstrupi",
+      "uncompressed_size_bytes": 431490
+    },
+    {
+      "crc32": "5753552d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Protomedeia.fasciata",
+      "uncompressed_size_bytes": 384716
+    },
+    {
+      "crc32": "74042df6",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Psammechinus.miliaris",
+      "uncompressed_size_bytes": 379489
+    },
+    {
+      "crc32": "0327290d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pusillina.inconspicua",
+      "uncompressed_size_bytes": 371887
+    },
+    {
+      "crc32": "989c32f3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pusillina.sarsii",
+      "uncompressed_size_bytes": 390936
+    },
+    {
+      "crc32": "5ef3d41b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Pygospio.elegans",
+      "uncompressed_size_bytes": 512266
+    },
+    {
+      "crc32": "f2dbd495",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Rangia.cuneata",
+      "uncompressed_size_bytes": 571596
+    },
+    {
+      "crc32": "6287a3df",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Retusa.obtusa",
+      "uncompressed_size_bytes": 390609
+    },
+    {
+      "crc32": "542f5f88",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Rhithropanopeus.harrisii",
+      "uncompressed_size_bytes": 567418
+    },
+    {
+      "crc32": "f2702364",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Rhodine.gracilior",
+      "uncompressed_size_bytes": 377721
+    },
+    {
+      "crc32": "279c5eeb",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Rhodine.loveni",
+      "uncompressed_size_bytes": 375592
+    },
+    {
+      "crc32": "c76b7823",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Rissoa.membranacea",
+      "uncompressed_size_bytes": 379468
+    },
+    {
+      "crc32": "8ce121bb",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Saduria.entomon",
+      "uncompressed_size_bytes": 506795
+    },
+    {
+      "crc32": "015592f4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Scalibregma.inflatum",
+      "uncompressed_size_bytes": 383462
+    },
+    {
+      "crc32": "709a0729",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Scolelepis.foliosa",
+      "uncompressed_size_bytes": 520864
+    },
+    {
+      "crc32": "45cf1524",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Scolelepis.squamata",
+      "uncompressed_size_bytes": 456467
+    },
+    {
+      "crc32": "4462fa89",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Scolelepis.tridentata",
+      "uncompressed_size_bytes": 404047
+    },
+    {
+      "crc32": "ef8ddf27",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Scoloplos.armiger",
+      "uncompressed_size_bytes": 396913
+    },
+    {
+      "crc32": "e2620f30",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Scrobicularia.plana",
+      "uncompressed_size_bytes": 377313
+    },
+    {
+      "crc32": "65309674",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Sigalion.mathildae",
+      "uncompressed_size_bytes": 368738
+    },
+    {
+      "crc32": "cac199f4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Sphaerodorum.gracilis",
+      "uncompressed_size_bytes": 386487
+    },
+    {
+      "crc32": "a3e48938",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Sphaerosyllis.hystrix",
+      "uncompressed_size_bytes": 467343
+    },
+    {
+      "crc32": "4d1fb4f2",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Spio.armata",
+      "uncompressed_size_bytes": 400573
+    },
+    {
+      "crc32": "ee253aa1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Spio.arndti",
+      "uncompressed_size_bytes": 414129
+    },
+    {
+      "crc32": "6c9480f9",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Spio.filicornis",
+      "uncompressed_size_bytes": 387035
+    },
+    {
+      "crc32": "661632bd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Spio.goniocephala",
+      "uncompressed_size_bytes": 385589
+    },
+    {
+      "crc32": "d71106d0",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Spio.martinensis",
+      "uncompressed_size_bytes": 408826
+    },
+    {
+      "crc32": "c10f0bde",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Spiophanes.bombyx",
+      "uncompressed_size_bytes": 374821
+    },
+    {
+      "crc32": "c3d7cd97",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Spiophanes.kroyeri",
+      "uncompressed_size_bytes": 376616
+    },
+    {
+      "crc32": "91ecb9ec",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Spisula.subtruncata",
+      "uncompressed_size_bytes": 396319
+    },
+    {
+      "crc32": "affc71be",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Streblospio.shrubsolii",
+      "uncompressed_size_bytes": 405654
+    },
+    {
+      "crc32": "64ea4818",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Streptosyllis.websteri",
+      "uncompressed_size_bytes": 533794
+    },
+    {
+      "crc32": "d2466b08",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Synchelidium.haplocheles",
+      "uncompressed_size_bytes": 389412
+    },
+    {
+      "crc32": "f743aecd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Tanaissus.lilljeborgi",
+      "uncompressed_size_bytes": 385505
+    },
+    {
+      "crc32": "dc09d6a6",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Tellimya.ferruginosa",
+      "uncompressed_size_bytes": 380586
+    },
+    {
+      "crc32": "dd43265d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Tellimya.tenella",
+      "uncompressed_size_bytes": 372680
+    },
+    {
+      "crc32": "7f29733c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Terebellides.stroemii",
+      "uncompressed_size_bytes": 414131
+    },
+    {
+      "crc32": "23aca3a7",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Tharyx.killariensis",
+      "uncompressed_size_bytes": 403359
+    },
+    {
+      "crc32": "664fe6d5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Thracia.phaseolina",
+      "uncompressed_size_bytes": 384714
+    },
+    {
+      "crc32": "aadfad69",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Thyasira.flexuosa",
+      "uncompressed_size_bytes": 372923
+    },
+    {
+      "crc32": "a478ae19",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Thysanocardia.procera",
+      "uncompressed_size_bytes": 373273
+    },
+    {
+      "crc32": "5892d3a1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Travisia.forbesii",
+      "uncompressed_size_bytes": 429561
+    },
+    {
+      "crc32": "4b0c4b03",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Trichobranchus.roseus",
+      "uncompressed_size_bytes": 368857
+    },
+    {
+      "crc32": "cdffdb58",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Tritia.reticulata",
+      "uncompressed_size_bytes": 392301
+    },
+    {
+      "crc32": "858435f3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Trochochaeta.multisetosa",
+      "uncompressed_size_bytes": 392612
+    },
+    {
+      "crc32": "7da03bf1",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Tubificoides.benedii",
+      "uncompressed_size_bytes": 398288
+    },
+    {
+      "crc32": "1d58c477",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Tubificoides.pseudogaster",
+      "uncompressed_size_bytes": 423599
+    },
+    {
+      "crc32": "e6c60a85",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Tubulanus.polymorphus",
+      "uncompressed_size_bytes": 393417
+    },
+    {
+      "crc32": "ffbbcd82",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Turritella.communis",
+      "uncompressed_size_bytes": 373137
+    },
+    {
+      "crc32": "18b8ca8d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Upogebia.deltaura",
+      "uncompressed_size_bytes": 378613
+    },
+    {
+      "crc32": "9f0fc022",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Upogebia.stellata",
+      "uncompressed_size_bytes": 368933
+    },
+    {
+      "crc32": "f6068de3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Urothoe.elegans",
+      "uncompressed_size_bytes": 369499
+    },
+    {
+      "crc32": "aaea4017",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Urothoe.grimaldii",
+      "uncompressed_size_bytes": 367111
+    },
+    {
+      "crc32": "5a5ad1ae",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Virgularia.mirabilis",
+      "uncompressed_size_bytes": 381846
+    },
+    {
+      "crc32": "92c51afa",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "invertebrates",
+      "species": "Westwoodilla.caecula",
+      "uncompressed_size_bytes": 377146
+    },
+    {
+      "crc32": "d7810ed7",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Aegagropila.linnaei",
+      "uncompressed_size_bytes": 400115
+    },
+    {
+      "crc32": "a08beefd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Agarophyton.vermiculophyllum",
+      "uncompressed_size_bytes": 377411
+    },
+    {
+      "crc32": "1ec40d50",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Alisma.wahlenbergii",
+      "uncompressed_size_bytes": 363011
+    },
+    {
+      "crc32": "39b163ca",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Apoglossum.ruscifolium",
+      "uncompressed_size_bytes": 371422
+    },
+    {
+      "crc32": "147859ff",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Asperococcus.bullosus",
+      "uncompressed_size_bytes": 364715
+    },
+    {
+      "crc32": "9e93921a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Batrachospermum",
+      "uncompressed_size_bytes": 365847
+    },
+    {
+      "crc32": "18c0023c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Bolboschoenus.maritimus",
+      "uncompressed_size_bytes": 410785
+    },
+    {
+      "crc32": "cc29b8ca",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Butomus.umbellatus",
+      "uncompressed_size_bytes": 365658
+    },
+    {
+      "crc32": "e17ad798",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Callitriche.hermaphroditica",
+      "uncompressed_size_bytes": 383399
+    },
+    {
+      "crc32": "b9657dda",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Callitriche.palustris",
+      "uncompressed_size_bytes": 364593
+    },
+    {
+      "crc32": "73ee919c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Caltha.palustris",
+      "uncompressed_size_bytes": 386296
+    },
+    {
+      "crc32": "fd79da91",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ceratophyllum.demersum",
+      "uncompressed_size_bytes": 391960
+    },
+    {
+      "crc32": "ee5adab3",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chaetomorpha.linum",
+      "uncompressed_size_bytes": 468760
+    },
+    {
+      "crc32": "e11059eb",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chara.aspera",
+      "uncompressed_size_bytes": 404474
+    },
+    {
+      "crc32": "9c7e7b81",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chara.baltica",
+      "uncompressed_size_bytes": 405601
+    },
+    {
+      "crc32": "c0517175",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chara.braunii",
+      "uncompressed_size_bytes": 360149
+    },
+    {
+      "crc32": "7d88daea",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chara.canescens",
+      "uncompressed_size_bytes": 403409
+    },
+    {
+      "crc32": "dc086c66",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chara.connivens",
+      "uncompressed_size_bytes": 382523
+    },
+    {
+      "crc32": "ae9cae60",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chara.horrida",
+      "uncompressed_size_bytes": 367651
+    },
+    {
+      "crc32": "552fce8d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chara.tomentosa",
+      "uncompressed_size_bytes": 384835
+    },
+    {
+      "crc32": "2496e3a9",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chara.virgata",
+      "uncompressed_size_bytes": 369329
+    },
+    {
+      "crc32": "d2e0cc93",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Chorda.filum",
+      "uncompressed_size_bytes": 437476
+    },
+    {
+      "crc32": "ba02be71",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Cicuta.virosa",
+      "uncompressed_size_bytes": 372089
+    },
+    {
+      "crc32": "2fbf59e2",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Cladophora.sericea",
+      "uncompressed_size_bytes": 398078
+    },
+    {
+      "crc32": "fef04eb5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Crassula.aquatica",
+      "uncompressed_size_bytes": 365259
+    },
+    {
+      "crc32": "a29ec691",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ectocarpus.Pylaiella",
+      "uncompressed_size_bytes": 539236
+    },
+    {
+      "crc32": "ac1308ae",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Elatine.hydropiper",
+      "uncompressed_size_bytes": 367118
+    },
+    {
+      "crc32": "a9bd83a8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Eleocharis.acicularis",
+      "uncompressed_size_bytes": 372541
+    },
+    {
+      "crc32": "f2fd28d7",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Eleocharis.mamillata",
+      "uncompressed_size_bytes": 368906
+    },
+    {
+      "crc32": "1f060e09",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Eleocharis.palustris",
+      "uncompressed_size_bytes": 372108
+    },
+    {
+      "crc32": "a2aa4039",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Eleocharis.parvula",
+      "uncompressed_size_bytes": 370618
+    },
+    {
+      "crc32": "056bfeb7",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Eleocharis.uniglumis",
+      "uncompressed_size_bytes": 393836
+    },
+    {
+      "crc32": "f0797ebd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Elodea.canadensis",
+      "uncompressed_size_bytes": 367699
+    },
+    {
+      "crc32": "a947086a",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Elodea.nuttallii",
+      "uncompressed_size_bytes": 362600
+    },
+    {
+      "crc32": "26f65727",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Epicladia.phillipsii",
+      "uncompressed_size_bytes": 388106
+    },
+    {
+      "crc32": "621d5c39",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Equisetum.fluviatile",
+      "uncompressed_size_bytes": 366278
+    },
+    {
+      "crc32": "5021cc3b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Fissidens.fontanus",
+      "uncompressed_size_bytes": 372810
+    },
+    {
+      "crc32": "7f3eb650",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Fontinalis.antipyretica",
+      "uncompressed_size_bytes": 396873
+    },
+    {
+      "crc32": "ff0756fe",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Fontinalis.dalecarlica",
+      "uncompressed_size_bytes": 379114
+    },
+    {
+      "crc32": "dbe83ecd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Fontinalis.hypnoides",
+      "uncompressed_size_bytes": 371070
+    },
+    {
+      "crc32": "2b0735aa",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Hippuris.tetraphylla",
+      "uncompressed_size_bytes": 358816
+    },
+    {
+      "crc32": "d65ec9dd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Hippuris.vulgaris",
+      "uncompressed_size_bytes": 383407
+    },
+    {
+      "crc32": "5579824c",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Juncus.gerardii",
+      "uncompressed_size_bytes": 391905
+    },
+    {
+      "crc32": "b47f3145",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Lemna.minor",
+      "uncompressed_size_bytes": 400949
+    },
+    {
+      "crc32": "e2a3f5be",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Lemna.trisulca",
+      "uncompressed_size_bytes": 380688
+    },
+    {
+      "crc32": "27a7e6f4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Limosella.aquatica",
+      "uncompressed_size_bytes": 370712
+    },
+    {
+      "crc32": "88a17f91",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Melobesia.membranacea",
+      "uncompressed_size_bytes": 378941
+    },
+    {
+      "crc32": "3801605f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Monostroma.balticum",
+      "uncompressed_size_bytes": 381807
+    },
+    {
+      "crc32": "a5d4f5fc",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Myriophyllum.alterniflorum",
+      "uncompressed_size_bytes": 376261
+    },
+    {
+      "crc32": "ecde884e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Myriophyllum.sibiricum",
+      "uncompressed_size_bytes": 372232
+    },
+    {
+      "crc32": "201bf06e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Myriophyllum.spicatum",
+      "uncompressed_size_bytes": 399535
+    },
+    {
+      "crc32": "fac57d60",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Myriophyllum.verticillatum",
+      "uncompressed_size_bytes": 367903
+    },
+    {
+      "crc32": "b8700a78",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Najas.marina",
+      "uncompressed_size_bytes": 383304
+    },
+    {
+      "crc32": "f746fcba",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Nitella.flexilis",
+      "uncompressed_size_bytes": 379772
+    },
+    {
+      "crc32": "24563b01",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Nitella.wahlbergiana",
+      "uncompressed_size_bytes": 362570
+    },
+    {
+      "crc32": "bd3322ef",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Nitellopsis.obtusa",
+      "uncompressed_size_bytes": 358862
+    },
+    {
+      "crc32": "de2b3c1e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Nuphar.lutea",
+      "uncompressed_size_bytes": 367458
+    },
+    {
+      "crc32": "96976415",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Nymphaea.alba",
+      "uncompressed_size_bytes": 363985
+    },
+    {
+      "crc32": "61c9b476",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Persicaria.foliosa",
+      "uncompressed_size_bytes": 361240
+    },
+    {
+      "crc32": "9511b0e4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Phragmites.australis",
+      "uncompressed_size_bytes": 388486
+    },
+    {
+      "crc32": "b03acb02",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.berchtoldii",
+      "uncompressed_size_bytes": 368501
+    },
+    {
+      "crc32": "1a21b14f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.crispus",
+      "uncompressed_size_bytes": 385113
+    },
+    {
+      "crc32": "03e67f47",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.friesii",
+      "uncompressed_size_bytes": 364039
+    },
+    {
+      "crc32": "8fd28019",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.gramineus",
+      "uncompressed_size_bytes": 369381
+    },
+    {
+      "crc32": "25da67fd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.natans",
+      "uncompressed_size_bytes": 365126
+    },
+    {
+      "crc32": "7846499f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.obtusifolius",
+      "uncompressed_size_bytes": 364216
+    },
+    {
+      "crc32": "0a5a7ab5",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.perfoliatus",
+      "uncompressed_size_bytes": 411297
+    },
+    {
+      "crc32": "f4823045",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.praelongus",
+      "uncompressed_size_bytes": 368950
+    },
+    {
+      "crc32": "343f7822",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Potamogeton.pusillus",
+      "uncompressed_size_bytes": 372544
+    },
+    {
+      "crc32": "53891325",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ptilota.gunneri",
+      "uncompressed_size_bytes": 375229
+    },
+    {
+      "crc32": "6419ab1d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ranunculus.aquatilis",
+      "uncompressed_size_bytes": 372184
+    },
+    {
+      "crc32": "db118571",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ranunculus.peltatus.peltatus",
+      "uncompressed_size_bytes": 383461
+    },
+    {
+      "crc32": "5b6a0144",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ranunculus.reptans",
+      "uncompressed_size_bytes": 367422
+    },
+    {
+      "crc32": "c0e20014",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Rhodophyllis.divaricata",
+      "uncompressed_size_bytes": 369165
+    },
+    {
+      "crc32": "257e39a4",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ruppia.cirrhosa",
+      "uncompressed_size_bytes": 405363
+    },
+    {
+      "crc32": "89c7ce24",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ruppia.maritima",
+      "uncompressed_size_bytes": 402517
+    },
+    {
+      "crc32": "9bbae4cd",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Sagittaria.natans",
+      "uncompressed_size_bytes": 361605
+    },
+    {
+      "crc32": "be3a1cae",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Sagittaria.sagittifolia",
+      "uncompressed_size_bytes": 364819
+    },
+    {
+      "crc32": "f9a94d19",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Sargassum.muticum",
+      "uncompressed_size_bytes": 365497
+    },
+    {
+      "crc32": "ff1034e8",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Schoenoplectus.lacustris",
+      "uncompressed_size_bytes": 370358
+    },
+    {
+      "crc32": "8937568b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Schoenoplectus.tabernaemontani",
+      "uncompressed_size_bytes": 404495
+    },
+    {
+      "crc32": "7b82248f",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Sparganium.emersum",
+      "uncompressed_size_bytes": 367420
+    },
+    {
+      "crc32": "55a3d0d2",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Stuckenia.pectinata",
+      "uncompressed_size_bytes": 421039
+    },
+    {
+      "crc32": "e22a9533",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Stuckenia.vaginata",
+      "uncompressed_size_bytes": 363100
+    },
+    {
+      "crc32": "dd1f96ce",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Subularia.aquatica",
+      "uncompressed_size_bytes": 371906
+    },
+    {
+      "crc32": "518d6614",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Triglochin.maritima",
+      "uncompressed_size_bytes": 392091
+    },
+    {
+      "crc32": "80a38083",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Typha.angustifolia",
+      "uncompressed_size_bytes": 370460
+    },
+    {
+      "crc32": "1780f17d",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Typha.latifolia",
+      "uncompressed_size_bytes": 375559
+    },
+    {
+      "crc32": "26b08100",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ulothrix.zonata",
+      "uncompressed_size_bytes": 381841
+    },
+    {
+      "crc32": "36330f3e",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Ulva.lactuca",
+      "uncompressed_size_bytes": 386050
+    },
+    {
+      "crc32": "d63d5398",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Utricularia.vulgaris",
+      "uncompressed_size_bytes": 364714
+    },
+    {
+      "crc32": "7c9bdd52",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Vaucheria",
+      "uncompressed_size_bytes": 394381
+    },
+    {
+      "crc32": "10d3c220",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Zannichellia.major",
+      "uncompressed_size_bytes": 426610
+    },
+    {
+      "crc32": "fa17adb0",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Zannichellia.palustris",
+      "uncompressed_size_bytes": 435078
+    },
+    {
+      "crc32": "105bdb30",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Zostera.marina",
+      "uncompressed_size_bytes": 403172
+    },
+    {
+      "crc32": "a274571b",
+      "families": [
+        "binary_envelope_tif",
+        "binary_tif"
+      ],
+      "group": "macrophytes",
+      "species": "Zygnema",
+      "uncompressed_size_bytes": 368137
+    }
+  ],
+  "does_not_establish": [
+    "byte identity - CRC32 is 32 bits and this is an indication, not a proof",
+    "the cause of the collision - envelope masking is a hypothesis, not bound here to published code or method description",
+    "anything about product roles other than that two declared roles carry the same content for these species"
+  ],
+  "establishes": "identical uncompressed size and identical CRC32 in the archive's own central directory for the listed species and family pairs",
+  "measured_from": {
+    "bytes": 4041369,
+    "file": "ZIP_INVENTORY_20309312.json",
+    "sha256": "4227f14a154db244864de2bad2b71f2d5871878267b65d67e502760edebe90da",
+    "source_archive": {
+      "archive_content_url": "https://zenodo.org/api/records/20309312/files/PROTECT-BALTIC-WP3-SDMs.zip/content",
+      "archive_filename": "PROTECT-BALTIC-WP3-SDMs.zip",
+      "archive_md5_publisher_issued": "d713b61ae9fe125a6711ea5b0574930e",
+      "archive_size_bytes": 5584303765,
+      "concept_doi": "10.5281/zenodo.20309311",
+      "record_licence": "cc-by-4.0",
+      "record_publication_date": "2026-06-23",
+      "record_title": "D3.6 - Region-wide distribution models of aquatic species in the Baltic Sea",
+      "record_version": "1",
+      "version_doi": "10.5281/zenodo.20309312",
+      "zenodo_record_id": 20309312
+    }
+  },
+  "record": "PRODUCT_ROLE_COLLISION_RESULT",
+  "scope": {
+    "product_families": [
+      "binary_confidence_tif",
+      "binary_envelope_tif",
+      "binary_strict_tif",
+      "binary_tif",
+      "confidence_tif",
+      "delta_tif",
+      "probability_tif"
+    ],
+    "raster_entries_considered": 4410,
+    "species": 630
+  }
+}
