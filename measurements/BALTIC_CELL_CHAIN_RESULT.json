@@ -1,0 +1,272 @@
+{
+  "artefacts": {
+    "fixed": {
+      "band_names": [
+        "aspect",
+        "bpi_4km_20km",
+        "bpi_500m_5km",
+        "slope",
+        "rugosity",
+        "depth",
+        "depth_attenuated_exposure",
+        "distance_from_coast",
+        "distance_to_rivers",
+        "substrate_coarse",
+        "substrate_hard_binary",
+        "substrate_hard",
+        "substrate_mixed_binary",
+        "substrate_sand",
+        "substrate_soft_binary",
+        "substrate_soft"
+      ],
+      "bands": 16,
+      "concept": "10.5281/zenodo.21523968",
+      "doi": "10.5281/zenodo.21523969",
+      "file": "fixed_var_stack.tif",
+      "grid": {
+        "compression": 50000,
+        "geo_ascii": "ETRS89-extended / LAEA Europe|ETRS89|",
+        "height": 5657,
+        "nodata": "nan",
+        "pixel_scale": [
+          250.0,
+          250.0,
+          0.0
+        ],
+        "predictor": 2,
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          4209597.426899999,
+          4812445.1766,
+          0.0
+        ],
+        "width": 4914
+      },
+      "ifd_offset": 258716686,
+      "ifd_tail_sha256": "16e1fc9eda51be28a272423a4c2619f018aae5414e4a69832d6bf2bf7e1fdea6",
+      "md5": "fec2be03c56e63c4b55048f904d9c589",
+      "published": "2026-07-24",
+      "record": 21523969,
+      "role": "time-invariant predictors",
+      "size": 258767525,
+      "url": "https://zenodo.org/api/records/21523969/files/fixed_var_stack.tif/content"
+    },
+    "scenario": {
+      "band_names": [
+        "ammonium_surface_mean",
+        "chloro_a_mean",
+        "nitrate_surface_mean",
+        "oxygen_bottom_mean",
+        "phosphate_surface_mean",
+        "salinity_bottom_mean",
+        "salinity_surface_mean",
+        "sea_ice_fraction_mean",
+        "wave_significant_height_mean",
+        "temperature_bottom_mean",
+        "temperature_surface_mean"
+      ],
+      "bands": 11,
+      "concept": "10.5281/zenodo.21523968",
+      "doi": "10.5281/zenodo.21523969",
+      "file": "env_stack_rcp45_2040_2059.tif",
+      "grid": {
+        "compression": 50000,
+        "geo_ascii": "ETRS89-extended / LAEA Europe|ETRS89|",
+        "height": 5657,
+        "nodata": "nan",
+        "pixel_scale": [
+          250.0,
+          250.0,
+          0.0
+        ],
+        "predictor": 2,
+        "tiepoint": [
+          0.0,
+          0.0,
+          0.0,
+          4209597.426899999,
+          4812445.1766,
+          0.0
+        ],
+        "width": 4914
+      },
+      "ifd_offset": 208767454,
+      "ifd_tail_sha256": "0a0f0b02308ee2cd7cb9950762f8fade2f14dec77672b9b9963dd2c709c7294b",
+      "md5": "e98cd1d02dbb21f7a7cc8dcf64ce7a9a",
+      "published": "2026-07-24",
+      "record": 21523969,
+      "role": "future environmental predictors, RCP4.5 2040-2059",
+      "size": 208816897,
+      "url": "https://zenodo.org/api/records/21523969/files/env_stack_rcp45_2040_2059.tif/content"
+    },
+    "species": {
+      "bytes": 6202696,
+      "doi": "10.5281/zenodo.20309312",
+      "grid": {
+        "band": "Perca.fluviatilis_EMwmeanByTSS_mergedData_mergedRun_mergedAlgo",
+        "crs": "EPSG:3035",
+        "height": 5657,
+        "nodata": 65535.0,
+        "transform": [
+          250.0,
+          0.0,
+          4209597.4269,
+          0.0,
+          -250.0,
+          4812445.1766
+        ],
+        "width": 4914
+      },
+      "local_sha256": "e1c4ef30f7e3eb45829640e32dc2003872c1a5d74308b79bdf6aa1654e0c5f9a",
+      "member": "PROTECT-BALTIC-WP3-SDMs/fish/probability_tif/Perca.fluviatilis.tif",
+      "published": "2026-06-23",
+      "record": 20309312,
+      "role": "probability_tif",
+      "sha256": "e1c4ef30f7e3eb45829640e32dc2003872c1a5d74308b79bdf6aa1654e0c5f9a",
+      "species": "Perca fluviatilis"
+    }
+  },
+  "cases": {
+    "BALTIC-ABSENCE": {
+      "cell": {
+        "col": 1926,
+        "row": 3387
+      },
+      "cell_centre_epsg3035": [
+        4691222.4269,
+        3965570.1766
+      ],
+      "fixed_bands_finite": 0,
+      "fixed_bands_total": 16,
+      "fixed_strip": {
+        "compressed_bytes": 66945,
+        "offset": 124982915
+      },
+      "fixed_values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "scenario_bands_finite": 0,
+      "scenario_bands_total": 11,
+      "scenario_strip": {
+        "compressed_bytes": 52889,
+        "offset": 97322372
+      },
+      "scenario_values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "species_is_nodata": false,
+      "species_raster_value": 891
+    },
+    "BALTIC-CHAIN": {
+      "cell": {
+        "col": 2035,
+        "row": 3387
+      },
+      "cell_centre_epsg3035": [
+        4718472.4269,
+        3965570.1766
+      ],
+      "fixed_bands_finite": 16,
+      "fixed_bands_total": 16,
+      "fixed_strip": {
+        "compressed_bytes": 66945,
+        "offset": 124982915
+      },
+      "fixed_values": [
+        356.7693176269531,
+        -3.7568037509918213,
+        7.881383419036865,
+        1.5361934900283813,
+        0.0007415445288643241,
+        -0.0,
+        3852.911865234375,
+        0.0,
+        5480.07763671875,
+        50.74166488647461,
+        1.0,
+        48.58333206176758,
+        1.0,
+        39.30583190917969,
+        0.0,
+        51.54833221435547
+      ],
+      "scenario_bands_finite": 11,
+      "scenario_bands_total": 11,
+      "scenario_strip": {
+        "compressed_bytes": 52889,
+        "offset": 97322372
+      },
+      "scenario_values": [
+        0.4457537531852722,
+        4.652021408081055,
+        10.737290382385254,
+        364.2554931640625,
+        0.26412850618362427,
+        5.432036876678467,
+        4.37272310256958,
+        0.10307825356721878,
+        0.23480340838432312,
+        8.384820938110352,
+        8.863176345825195
+      ],
+      "species_is_nodata": false,
+      "species_raster_value": 978
+    }
+  },
+  "does_not_establish": [
+    "what any value means - band names are reproduced from the artefact's own GDAL_METADATA and are not renamed or interpreted here",
+    "that the species raster value is a probability - the 0-1000 scale is described in project documentation, not in the artefact's own metadata",
+    "why the environmental stacks carry NoData where the species raster carries a value - the reason is not represented in the artefacts examined",
+    "anything about rows other than the one measured"
+  ],
+  "establishes": [
+    "the value stored at the named cell of each named artefact",
+    "that the three artefacts share one grid: same CRS code, dimensions, pixel size and origin"
+  ],
+  "grid": {
+    "height": 5657,
+    "width": 4914
+  },
+  "grid_identity": {
+    "species_vs_fixed": true,
+    "species_vs_scenario": true
+  },
+  "record": "BALTIC_CELL_CHAIN_RESULT",
+  "row_mask_comparison": {
+    "all_three": 1709,
+    "environment_only": 0,
+    "fixed_all_bands_finite": 1709,
+    "note": "one row only. Not extrapolated to the grid.",
+    "row": 3387,
+    "scenario_all_bands_finite": 1709,
+    "species_modelled": 1801,
+    "species_only": 92
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "classification": "PROOF OF ABSENCE from the identified published evidence examined",
+  "does_not_establish": [
+    "that no definition of the predictor exists anywhere - only that none was found in the evidence examined",
+    "that the repository lacked such a definition at any other commit",
+    "anything about sources not identified from the publication metadata"
+  ],
+  "establishes": [
+    "which artefacts were searched, at which identity, with which terms",
+    "the number of matches per term in each artefact",
+    "the repository state examined, by commit SHA"
+  ],
+  "measured_utc": "2026-09-11T17:45:03Z",
+  "record": "SEMANTIC_PROVENANCE_DEPTH_SEARCH_RESULT",
+  "repository": {
+    "branch": "main",
+    "directories": [
+      {
+        "entries": [
+          ".gitignore",
+          "2ded2551c8a85745d9fd82242bee94457bdd5ede",
+          "Discussion",
+          "Issue",
+          "PROTECT-BALTIC-WP3-SDMs",
+          "PullRequest",
+          "README.md",
+          "Release",
+          "SecurityAlert",
+          "app",
+          "models",
+          "observations",
+          "package_versions.csv",
+          "predictors",
+          "products"
+        ],
+        "entries_matching_target": [],
+        "http_status": 200,
+        "path": "/"
+      },
+      {
+        "entries": [
+          ".gitignore",
+          "2ded2551c8a85745d9fd82242bee94457bdd5ede",
+          "PROTECT-BALTIC-WP3-SDMs",
+          "README.md",
+          "app",
+          "models",
+          "observations",
+          "package_versions.csv",
+          "predictor_list.csv",
+          "predictors",
+          "predictors.Rproj",
+          "predictors_all",
+          "predictors_fish",
+          "predictors_invertebrates",
+          "predictors_macrophytes",
+          "products",
+          "vif_test.R"
+        ],
+        "entries_matching_target": [],
+        "http_status": 200,
+        "path": "predictors"
+      },
+      {
+        "entries": [
+          ".gitignore",
+          "2ded2551c8a85745d9fd82242bee94457bdd5ede",
+          "PROTECT-BALTIC-WP3-SDMs",
+          "README.md",
+          "ammonium_surface_cv.tif",
+          "ammonium_surface_mean.tif",
+          "app",
+          "aspect.tif",
+          "bpi_4km_20km.tif",
+          "bpi_500m_5km.tif",
+          "chloro_a_cv.tif",
+          "chloro_a_mean.tif",
+          "co2_surface_cv.tif",
+          "co2_surface_mean.tif",
+          "depth.tif",
+          "depth_attenuated_exposure.tif",
+          "distance_from_coast.tif",
+          "distance_to_rivers.tif",
+          "mixed_layer_thickness_cv.tif",
+          "mixed_layer_thickness_mean.tif",
+          "models",
+          "nitrate_surface_cv.tif",
+          "nitrate_surface_mean.tif",
+          "observations",
+          "oxygen_bottom_cv.tif",
+          "oxygen_bottom_mean.tif",
+          "oxygen_surface_cv.tif",
+          "oxygen_surface_mean.tif",
+          "package_versions.csv",
+          "ph_surface_cv.tif",
+          "ph_surface_mean.tif",
+          "phosphate_surface_cv.tif",
+          "phosphate_surface_mean.tif",
+          "predictor_list.csv",
+          "predictors",
+          "predictors.Rproj",
+          "predictors_all",
+          "predictors_fish",
+          "predictors_invertebrates",
+          "predictors_macrophytes",
+          "primary_prod_surface_cv.tif",
+          "primary_prod_surface_mean.tif",
+          "products",
+          "rugosity.tif",
+          "salinity_bottom_cv.tif",
+          "salinity_bottom_mean.tif",
+          "salinity_surface_cv.tif",
+          "salinity_surface_mean.tif",
+          "sea_ice_fraction_cv.tif",
+          "sea_ice_fraction_mean.tif",
+          "sea_surface_height_cv.tif",
+          "sea_surface_height_mean.tif",
+          "secchi_depth_cv.tif",
+          "secchi_depth_mean.tif",
+          "slope.tif",
+          "substrate_coarse.tif",
+          "substrate_hard.tif",
+          "substrate_hard_binary.tif",
+          "substrate_mixed_binary.tif",
+          "substrate_sand.tif",
+          "substrate_soft.tif",
+          "substrate_soft_binary.tif",
+          "temperature_bottom_cv.tif",
+          "temperature_bottom_mean.tif",
+          "temperature_surface_cv.tif",
+          "temperature_surface_mean.tif",
+          "vif_test.R",
+          "wave_significant_height_cv.tif",
+          "wave_significant_height_mean.tif"
+        ],
+        "entries_matching_target": [
+          "depth.tif",
+          "depth_attenuated_exposure.tif",
+          "secchi_depth_cv.tif",
+          "secchi_depth_mean.tif"
+        ],
+        "http_status": 200,
+        "path": "predictors/predictors_all"
+      }
+    ],
+    "files": [
+      {
+        "bytes": 352,
+        "http_status": 200,
+        "path": "README.md",
+        "search": {
+          "EMODnet": 0,
+          "bathym": 0,
+          "centimet": 0,
+          "commit": 0,
+          "depth": 0,
+          "fixed_var": 0,
+          "github": 1,
+          "meter": 0,
+          "metre": 0,
+          "predictor": 0,
+          "scal": 0,
+          "substrate": 0,
+          "transform": 0,
+          "unit": 0
+        },
+        "sha256": "d0f3711388e2de8fe3e402faf6efb3cf54a66aa4c6ad0c31fb929044053ccce6"
+      },
+      {
+        "http_status": 404,
+        "path": "predictors/README.md"
+      },
+      {
+        "bytes": 1429,
+        "csv_header": "\"species_group\",\"predictor\"",
+        "csv_rows": 44,
+        "csv_rows_matching_target": 7,
+        "http_status": 200,
+        "path": "predictors/predictor_list.csv",
+        "search": {
+          "EMODnet": 0,
+          "bathym": 0,
+          "centimet": 0,
+          "commit": 0,
+          "depth": 7,
+          "fixed_var": 0,
+          "github": 0,
+          "meter": 0,
+          "metre": 0,
+          "predictor": 1,
+          "scal": 0,
+          "substrate": 9,
+          "transform": 0,
+          "unit": 0
+        },
+        "sha256": "b19841f2540ee67197bcb6b730df53bde012b76109040d5e3da37c4c5074147e"
+      }
+    ],
+    "head_commit": "2ded2551c8a85745d9fd82242bee94457bdd5ede",
+    "head_source": "parsed from the commits page HTML at measurement time",
+    "note": "a repository is mutable; this result is only about this commit",
+    "url": "https://github.com/helcomsecretariat/PROTECT-BALTIC-WP3-SDMs"
+  },
+  "search_terms": [
+    "depth",
+    "bathym",
+    "unit",
+    "metre",
+    "meter",
+    "centimet",
+    "scal",
+    "transform",
+    "predictor",
+    "fixed_var",
+    "substrate",
+    "github",
+    "commit",
+    "EMODnet"
+  ],
+  "target_predictor": "depth",
+  "zenodo": [
+    {
+      "bytes_measured": 974356,
+      "doi": "10.5281/zenodo.21524655",
+      "extracted_chars": 4212,
+      "file": "D3.13 Future conditions modelling code (2).pdf",
+      "key": "D3.13",
+      "md5": "41759bd8e54a9d3d6c771788e8ad1e95",
+      "md5_matches_publisher": true,
+      "md5_measured": "41759bd8e54a9d3d6c771788e8ad1e95",
+      "pages": 5,
+      "record": 21524655,
+      "search": {
+        "EMODnet": {
+          "count": 0,
+          "hits": []
+        },
+        "bathym": {
+          "count": 0,
+          "hits": []
+        },
+        "centimet": {
+          "count": 0,
+          "hits": []
+        },
+        "commit": {
+          "count": 0,
+          "hits": []
+        },
+        "depth": {
+          "count": 0,
+          "hits": []
+        },
+        "fixed_var": {
+          "count": 0,
+          "hits": []
+        },
+        "github": {
+          "count": 1,
+          "hits": [
+            {
+              "line": "available through the project's GitHub repository, enabling users to understand, reproduce,",
+              "page": 3
+            }
+          ]
+        },
+        "meter": {
+          "count": 0,
+          "hits": []
+        },
+        "metre": {
+          "count": 0,
+          "hits": []
+        },
+        "predictor": {
+          "count": 0,
+          "hits": []
+        },
+        "scal": {
+          "count": 0,
+          "hits": []
+        },
+        "substrate": {
+          "count": 0,
+          "hits": []
+        },
+        "transform": {
+          "count": 0,
+          "hits": []
+        },
+        "unit": {
+          "count": 0,
+          "hits": []
+        }
+      },
+      "sha256_measured": "45236db4b4eac91542aab3d63944f0a219c2dc99d80c8a7e86bfa30d38f9f251",
+      "size": 974356,
+      "title": "PROTECT BALTIC - Deliverable 3.13 - Future conditions modelling code"
+    },
+    {
+      "bytes_measured": 1345039,
+      "doi": "10.5281/zenodo.17484506",
+      "extracted_chars": 3590,
+      "file": "D3.2_Environmental predictor layers modelling code.pdf",
+      "key": "D3.2",
+      "md5": "4ea3e7803637f3560f28341dace5db93",
+      "md5_matches_publisher": true,
+      "md5_measured": "4ea3e7803637f3560f28341dace5db93",
+      "pages": 5,
+      "record": 17484506,
+      "search": {
+        "EMODnet": {
+          "count": 0,
+          "hits": []
+        },
+        "bathym": {
+          "count": 0,
+          "hits": []
+        },
+        "centimet": {
+          "count": 0,
+          "hits": []
+        },
+        "commit": {
+          "count": 0,
+          "hits": []
+        },
+        "depth": {
+          "count": 0,
+          "hits": []
+        },
+        "fixed_var": {
+          "count": 0,
+          "hits": []
+        },
+        "github": {
+          "count": 1,
+          "hits": [
+            {
+              "line": "GitHub repository to ensure transparency, reproducibility, and reuse in future analyses.",
+              "page": 3
+            }
+          ]
+        },
+        "meter": {
+          "count": 0,
+          "hits": []
+        },
+        "metre": {
+          "count": 0,
+          "hits": []
+        },
+        "predictor": {
+          "count": 11,
+          "hits": [
+            {
+              "line": "PREDICTOR LAYERS",
+              "page": 1
+            },
+            {
+              "line": "\u201cProtect Baltic Environmental Predictor Layers Modelling Code - HELCOM (2025)\u201d",
+              "page": 2
+            },
+            {
+              "line": "Deliverable 3.2 - Environmental predictor layers modelling code",
+              "page": 3
+            },
+            {
+              "line": "Deliverable 3.2  - Environmental predictor layers modelling code",
+              "page": 3
+            },
+            {
+              "line": "BALTIC project - Environmental predictors layers modelling code developed under Task 3.1",
+              "page": 3
+            }
+          ]
+        },
+        "scal": {
+          "count": 2,
+          "hits": [
+            {
+              "line": "Baltic scale.",
+              "page": 3
+            },
+            {
+              "line": "o ensure spatial consistency, all layers were harmonized and downscaled to a common",
+              "page": 3
+            }
+          ]
+        },
+        "substrate": {
+          "count": 0,
+          "hits": []
+        },
+        "transform": {
+          "count": 0,
+          "hits": []
+        },
+        "unit": {
+          "count": 0,
+          "hits": []
+        }
+      },
+      "sha256_measured": "0fcbfff48d6bd09ec44adc4b4d8c2df4031df939cb1bd8c429f37f223a062d71",
+      "size": 1345039,
+      "title": "PROTECT BALTIC Deliverable 3.2 - Environmental predictor layers modelling code"
+    }
+  ]
+}
