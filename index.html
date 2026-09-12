@@ -129,6 +129,15 @@
   #chain .gap code{font-size:.95rem}
   #chain .gap p{margin-bottom:.8rem}
   #chain .gap p:last-child{margin-bottom:0}
+  @media (max-width:30rem){
+    .verdict-table tr{display:grid;grid-template-columns:6rem 1fr;
+      border-bottom:1px solid var(--shoal);padding:.35rem 0}
+    .verdict-table td{border:0;padding:.1rem .6rem .1rem 0;width:auto!important}
+    .verdict-table td:nth-child(3){grid-column:1 / -1;padding-top:.15rem}
+  }
+  .state-line{margin:2.2rem 0 0;padding-top:1.2rem;border-top:1px solid var(--navy-3);
+    font:400 .78rem/1.7 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#6f88a3}
+  .state-line a{color:#8fd9bb}
 
   /* EVE section on navy */
   .chain{list-style:none;margin:0 0 2rem;padding:0;
@@ -215,10 +224,10 @@
 
   <section id="chain">
     <h2 class="sec">Two cells, one row, 27 km apart</h2>
-    <p class="sec-lede">The species raster is one artefact. The predictors that fed the
-      model are two more, published separately in the D3.8 deliverable and on the same
-      250 m grid. Following one row of that grid across all three shows where the chain
-      holds and where it does not.</p>
+    <p class="sec-lede">Two published predictor stacks are available on the same 250 m
+      grid as the species raster. Following one row across the species raster and both
+      predictor stacks shows where the spatial evidence chain can be bound and where it
+      cannot.</p>
 
     <div class="instrument">
       <div class="pad">
@@ -366,6 +375,11 @@
       Zenodo. Measured 2026-09-09. The archive inventory and the product-role measurement
       are published in <a href="https://github.com/elekto-energy/baltic-showcase/tree/master/measurements">measurements/</a>.</p>
     <p>EVE Verified · <a href="https://eveverified.com">eveverified.com</a></p>
+    <p class="state-line">SHOWCASE SOURCE STATE<br>
+      content commit <a href="https://github.com/elekto-energy/baltic-showcase/commits/master">PENDING</a><br>
+      The commit named here is the content state of this page. The commit that adds
+      this line is its immediate successor and differs only in this line. To verify,
+      compare the served bytes against that commit.</p>
   </footer>
 
 </div>
@@ -598,9 +612,9 @@ function views(d){
   <h4>Content identity is not product role</h4>
   <p>For <strong>506 of 630 species</strong>, <code>binary_tif</code> and
     <code>binary_envelope_tif</code> have identical uncompressed size and identical CRC32
-    in the archive's own central directory, which strongly indicates identical content.
-    Full byte identity has been independently established only for the species inspected
-    here; it has not been verified for all 506 pairs.</p>
+    in the archive's central directory. This does not establish byte-for-byte identity.
+    No <code>binary_tif</code> / <code>binary_envelope_tif</code> pair has been retrieved
+    and hashed, so full byte identity has not been established for any species.</p>
   <p>The inventory this was measured from, the measurement itself and its output are in
     <a href="https://github.com/elekto-energy/baltic-showcase/tree/master/measurements">measurements/</a>
     in this repository, with their sha-256 values recorded, so the count can be re-derived
