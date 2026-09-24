@@ -309,7 +309,7 @@
     </ul>
 
     <p style="color:#9fb4cc;max-width:60ch;margin:0 0 1.4rem">Keeping those layers apart
-      surfaced three things that are easy to lose in ordinary analysis:</p>
+      surfaced four things that are easy to lose in ordinary analysis:</p>
 
     <div class="cols">
       <div class="card">
@@ -326,6 +326,12 @@
         <h3>Content identity is not role</h3>
         <p>Where two product families hold the same content, a content hash gives both
           the same identity and cannot establish which role an artefact played.</p>
+      </div>
+      <div class="card">
+        <h3>A verified value is not a known meaning</h3>
+        <p>A predictor's name and value can be read and reproduced from the artefact,
+          while what the value means is recorded in none of the published evidence
+          examined.</p>
       </div>
     </div>
 
@@ -372,7 +378,9 @@
       and two CSV files were retrieved by HTTP byte range — 26 MB of a 5.58 GB archive —
       with CRC32 verified against the archive's own central directory after
       decompression. The sha-256 values are local measurements and are not published by
-      Zenodo. Measured 2026-09-09. The archive inventory and the product-role measurement
+      Zenodo. Measured 2026-09-09. The two predictor stacks (Zenodo record 21523969) were
+      not downloaded: for each, only the TIFF directory at the end of the file and the row
+      strip examined were read by HTTP byte range. The archive inventory and the product-role measurement
       are published in <a href="https://github.com/elekto-energy/baltic-showcase/tree/master/measurements">measurements/</a>.</p>
     <p>EVE Verified · <a href="https://eveverified.com">eveverified.com</a></p>
     <p class="state-line">SHOWCASE SOURCE STATE<br>
